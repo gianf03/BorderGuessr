@@ -22,7 +22,7 @@
     },
     {
       "name" : "Antigua e Barbuda",
-      "neighbors" : ["Francia", "Saint Kitts e Nevis"]
+      "neighbors" : ["Francia", "Saint Kitts e Nevis", "Regno Unito"]
     },
     {
       "name" : "Argentina",
@@ -74,7 +74,7 @@
     },
     {
       "name" : "Benin",
-      "neighbors" : ["Burkina Faso", "Niger", "Nigeria", "Tagikistan", "Togo"]
+      "neighbors" : ["Burkina Faso", "Niger", "Nigeria", "Togo"]
     },
     {
       "name" : "Bhutan",
@@ -114,7 +114,7 @@
     },
     {
       "name" : "Cambogia",
-      "neighbors" : ["Laos", "Tailandia", "Vietnam"]
+      "neighbors" : ["Laos", "Thailandia", "Vietnam"]
     },
     {
       "name" : "Camerun",
@@ -142,7 +142,7 @@
     },
     {
       "name" : "Cina",
-      "neighbors" : ["Afghanistan", "Bhutan", "Brunei", "India", "Indonesia", "Giappone", "Kazakistan", "Cored del Nord", "Corea del Sud", "Kirghizistan", "Laos", "Malesia", "Mongolia", "Birmania", "Nepal", "Pakistan", "Filippine", "Russia", "Tagikistan", "Vietnam", "Hong Kong", "Macao", "Taiwan"]
+      "neighbors" : ["Afghanistan", "Bhutan", "Brunei", "India", "Indonesia", "Giappone", "Kazakistan", "Corea del Nord", "Corea del Sud", "Kirghizistan", "Laos", "Malesia", "Mongolia", "Birmania", "Nepal", "Pakistan", "Filippine", "Russia", "Tagikistan", "Vietnam", "Hong Kong", "Macao", "Taiwan"]
     },
     {
       "name" : "Colombia",
@@ -202,7 +202,7 @@
     },
     {
       "name" : "Timor Est",
-      "neighbors" : ["Australia", "Indonesia", "Australia"]
+      "neighbors" : ["Australia", "Indonesia"]
     },
     {
       "name" : "Ecuador",
@@ -314,11 +314,11 @@
     },
     {
       "name" : "India",
-      "neighbors" : ["Bangladesh", "Bhutan", "Cina", "Indonesia", "Maldive", "Birmania", "Nepal", "Pakistan", "Sri Lanka", "Tailandia"]
+      "neighbors" : ["Bangladesh", "Bhutan", "Cina", "Indonesia", "Maldive", "Birmania", "Nepal", "Pakistan", "Sri Lanka", "Thailandia"]
     },
     {
       "name" : "Indonesia",
-      "neighbors" : ["Australia", "Cina", "Timor Est", "India", "Malesia", "Palau", "Papua Nuova Guinea", "Filippine", "Singapore", "Taiwan", "Tailandia", "Vietnam"]
+      "neighbors" : ["Australia", "Cina", "Timor Est", "India", "Malesia", "Palau", "Papua Nuova Guinea", "Filippine", "Singapore", "Taiwan", "Thailandia", "Vietnam"]
     },
     {
       "name" : "Iran",
@@ -386,7 +386,7 @@
     },
     {
       "name" : "Laos",
-      "neighbors" : ["Birmania", "Cambogia", "Cina", "Tailandia", "Vietnam"]
+      "neighbors" : ["Birmania", "Cambogia", "Cina", "Thailandia", "Vietnam"]
     },
     {
       "name" : "Lettonia",
@@ -434,7 +434,7 @@
     },
     {
       "name" : "Malesia",
-      "neighbors" : ["Brunei", "Cina", "Indonesia", "Filippine", "Singapore", "Tailandia", "Vietnam", "Taiwan"]
+      "neighbors" : ["Brunei", "Cina", "Indonesia", "Filippine", "Singapore", "Thailandia", "Vietnam", "Taiwan"]
     },
     {
       "name" : "Maldive",
@@ -494,7 +494,7 @@
     },
     {
       "name" : "Birmania",
-      "neighbors" : ["Bangladesh", "Cina", "India", "Laos", "Tailandia"]
+      "neighbors" : ["Bangladesh", "Cina", "India", "Laos", "Thailandia"]
     },
     {
       "name" : "Namibia",
@@ -526,7 +526,7 @@
     },
     {
       "name" : "Nigeria",
-      "neighbors" : ["Benin", "Camerun", "Ciad", "Guinea Equatoriale", "Nigeria", "Sao Tome e Principe"]
+      "neighbors" : ["Benin", "Camerun", "Ciad", "Guinea Equatoriale", "Niger", "Sao Tome e Principe"]
     },
     {
       "name" : "Macedonia del Nord",
@@ -605,6 +605,10 @@
       "neighbors" : ["Barbados", "Francia", "Saint Vincent e Grenadine", "Venezuela"]
     },
     {
+      "name" : "Saint Vincent e Grenadine",
+      "neighbors" : ["Grenada", "Barbados", "Santa Lucia", "Trinidad e Tobago", "Venezuela"]
+    },
+    {
       "name" : "Samoa",
       "neighbors" : ["Tonga", "Stati Uniti", "Nuova Zelanda", "Francia"]
     },
@@ -661,6 +665,10 @@
       "neighbors" : ["Botswana", "eSwatini", "Lesotho", "Mozambico", "Namibia", "Zimbabwe"]
     },
     {
+      "name" : "Sudan",
+      "neighbors" : ["Arabia Saudita", "Sudan del Sud", "Egitto", "Eritrea", "Etiopia", "Libia", "Ciad", "Repubblica Centrafricana"]
+    },
+    {
       "name" : "Sudan del Sud",
       "neighbors" : ["Repubblica Centrafricana", "RD Congo", "Etiopia", "Kenya", "Sudan", "Uganda"]
     },
@@ -697,15 +705,11 @@
       "neighbors" : ["Afghanistan", "Cina", "Kirghizistan", "Uzbekistan"]
     },
     {
-      "name" : "Afghanistan",
-      "neighbors" : ["Cina", "Iran", "Pakistan", "Tagikistan", "Turkmenistan", "Uzbekistan"]
-    },
-    {
       "name" : "Tanzania",
       "neighbors" : ["Burundi", "Comore", "RD Congo", "Kenya", "Malawi", "Mozambico", "Ruanda", "Seychelles", "Uganda", "Zambia"]
     },
     {
-      "name" : "Tailandia",
+      "name" : "Thailandia",
       "neighbors" : ["Birmania", "Cambogia", "India", "Indonesia", "Laos", "Malesia", "Vietnam"]
     },
     {
@@ -778,7 +782,7 @@
     },
     {
       "name" : "Vietnam",
-      "neighbors" : ["Brunei", "Cambogia", "Cina", "Indonesia", "Laos", "Malesia", "Filippine", "Taiwan", "Tailandia"]
+      "neighbors" : ["Brunei", "Cambogia", "Cina", "Indonesia", "Laos", "Malesia", "Filippine", "Taiwan", "Thailandia"]
     },
     {
       "name" : "Yemen",

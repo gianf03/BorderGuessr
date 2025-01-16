@@ -1,0 +1,332 @@
+{
+  "allCountries": [
+    {
+      "name": "Austria",
+      "neighbors": ["Italia", "Slovenia", "Ungheria", "Slovacchia", "Cechia", "Germania", "Liechtenstein", "Svizzera"]
+    },
+    {
+      "name": "Belgio",
+      "neighbors": ["Paesi Bassi", "Germania", "Lussemburgo", "Francia"]
+    },
+    {
+      "name": "Bulgaria",
+      "neighbors": ["Grecia", "Romania", "Macedonia del Nord", "Serbia", "Turchia"]
+    },
+    {
+      "name": "Croazia",
+      "neighbors": ["Slovenia", "Ungheria", "Bosnia ed Erzegovina", "Serbia", "Montenegro"]
+    },
+    {
+      "name": "Danimarca",
+      "neighbors": ["Germania", "Canada"]
+    },
+    {
+      "name": "Estonia",
+      "neighbors": ["Lettonia", "Russia"]
+    },
+    {
+      "name": "Finlandia",
+      "neighbors": ["Svezia", "Norvegia", "Russia"]
+    },
+    {
+      "name": "Francia",
+      "neighbors": ["Spagna", "Germania", "Italia", "Lussemburgo", "Belgio", "Andorra", "Monaco", "Svizzera", "Brasile"]
+    },
+    {
+      "name": "Germania",
+      "neighbors": ["Francia", "Paesi Bassi", "Lussemburgo", "Belgio","Austria", "Cechia", "Danimarca","Polonia", "Svizzera"]
+    },
+    {
+      "name": "Grecia",
+      "neighbors": ["Bulgaria", "Albania", "Macedonia del Nord", "Turchia"]
+    },
+    {
+      "name": "Italia",
+      "neighbors": ["Francia", "Austria", "Slovenia", "Città del Vaticano", "Svizzera"]
+    },
+    {
+      "name": "Lettonia",
+      "neighbors": ["Lituania", "Estonia", "Bielorussia", "Russia"]
+    },
+    {
+      "name": "Lituania",
+      "neighbors": ["Lettonia", "Polonia", "Bielorussia", "Russia"]
+    },
+    {
+      "name": "Lussemburgo",
+      "neighbors": ["Francia", "Germania", "Belgio"]
+    },
+    {
+      "name": "Paesi Bassi",
+      "neighbors": ["Belgio", "Germania"]
+    },
+    {
+      "name": "Polonia",
+      "neighbors": ["Germania", "Cechia", "Slovacchia", "Lituania", "Bielorussia", "Russia", "Ucraina"]
+    },
+    {
+      "name": "Portogallo",
+      "neighbors": ["Spagna"]
+    },
+    {
+      "name": "Cechia",
+      "neighbors": ["Germania", "Austria", "Polonia", "Slovacchia"]
+    },
+    {
+      "name": "Romania",
+      "neighbors": ["Ungheria", "Bulgaria", "Moldavia", "Serbia", "Ucraina"]
+    },
+    {
+      "name": "Slovacchia",
+      "neighbors": ["Austria", "Cechia", "Polonia", "Ungheria", "Ucraina"]
+    },
+    {
+      "name": "Slovenia",
+      "neighbors": ["Italia", "Croazia", "Ungheria", "Austria"]
+    },
+    {
+      "name": "Spagna",
+      "neighbors": ["Portogallo", "Francia", "Andorra", "Regno Unito"]
+    },
+    {
+      "name": "Svezia",
+      "neighbors": ["Finlandia", "Norvegia"]
+    },
+    {
+      "name": "Ungheria",
+      "neighbors": ["Slovacchia", "Romania", "Croazia", "Austria", "Slovenia", "Serbia", "Ucraina"]
+    },
+    {
+      "name": "Albania",
+      "neighbors": ["Grecia", "Macedonia del Nord", "Montenegro", "Kosovo"]
+    },
+    {
+      "name": "Andorra",
+      "neighbors": ["Francia", "Spagna"]
+    },
+    {
+      "name": "Bielorussia",
+      "neighbors": ["Polonia", "Lituania", "Lettonia", "Russia", "Ucraina"]
+    },
+    {
+      "name": "Bosnia ed Erzegovina",
+      "neighbors": ["Croazia", "Serbia", "Montenegro"]
+    },
+    {
+      "name": "Città del Vaticano",
+      "neighbors": ["Italia"]
+    },
+    {
+      "name": "Liechtenstein",
+      "neighbors": ["Austria", "Svizzera"]
+    },
+    {
+      "name": "Macedonia del Nord",
+      "neighbors": ["Albania", "Grecia", "Bulgaria", "Serbia", "Kosovo"]
+    },
+    {
+      "name": "Moldavia",
+      "neighbors": ["Romania", "Ucraina"]
+    },
+    {
+      "name": "Monaco",
+      "neighbors": ["Francia"]
+    },
+    {
+      "name": "Norvegia",
+      "neighbors": ["Svezia", "Finlandia", "Russia"]
+    },
+    {
+      "name": "Regno Unito",
+      "neighbors": ["Spagna"]
+    },
+    {
+      "name": "Russia",
+      "neighbors": ["Norvegia", "Finlandia", "Estonia", "Lettonia", "Lituania", "Polonia", "Bielorussia", "Azerbaigian", "Georgia", "Ucraina", "Kazakistan", "Cina", "Corea del Nord"]
+    },
+    {
+      "name": "Armenia",
+      "neighbors": ["Azerbaigian", "Georgia", "Turchia", "Iran"]
+    },
+    {
+      "name": "Azerbaigian",
+      "neighbors": ["Russia", "Armenia", "Georgia", "Turchia", "Iran"]
+    },
+    {
+      "name": "Georgia",
+      "neighbors": ["Russia", "Armenia", "Azerbaigian", "Turchia"]
+    },
+    {
+      "name": "Serbia",
+      "neighbors": ["Ungheria", "Romania", "Bulgaria", "Macedonia del Nord", "Bosnia ed Erzegovina", "Croazia", "Montenegro", "Kosovo"]
+    },
+    {
+      "name": "Svizzera",
+      "neighbors": ["Francia", "Germania", "Italia", "Austria", "Liechtenstein"]
+    },
+    {
+      "name": "Turchia",
+      "neighbors": ["Grecia", "Bulgaria", "Georgia", "Armenia", "Azerbaigian", "Iran", "Iraq", "Siria"]
+    },
+    {
+      "name": "Ucraina",
+      "neighbors": ["Russia", "Moldavia", "Ungheria", "Bielorussia", "Polonia", "Slovacchia", "Romania"]
+    },
+    {
+      "name": "Montenegro",
+      "neighbors": ["Serbia", "Albania", "Croazia", "Bosnia ed Erzegovina", "Kosovo"]
+    },
+    {
+      "name": "Kosovo",
+      "neighbors": ["Serbia", "Montenegro", "Macedonia del Nord", "Albania"]
+    },
+    {
+      "name": "Kazakistan",
+      "neighbors": ["Russia", "Cina"]
+    },
+    {
+      "name": "Iran",
+      "neighbors": ["Armenia", "Azerbaigian", "Turchia", "Iraq", "Afghanistan"]
+    },
+    {
+      "name": "Iraq",
+      "neighbors": ["Iran", "Turchia", "Siria", "Giordania", "Arabia Saudita"]
+    },
+    {
+      "name": "Siria",
+      "neighbors": ["Turchia", "Iraq", "Giordania", "Libano", "Israele"]
+    },
+    {
+      "name": "Giordania",
+      "neighbors": ["Siria", "Iraq", "Arabia Saudita"]
+    },
+    {
+      "name": "Libano",
+      "neighbors": ["Siria", "Israele"]
+    },
+    {
+      "name": "Israele",
+      "neighbors": ["Libano", "Siria"]
+    },
+    {
+      "name": "Afghanistan",
+      "neighbors": ["Iran", "Cina"]
+    },
+    {
+      "name": "Arabia Saudita",
+      "neighbors": ["Iraq", "Giordania", "Emirati Arabi Uniti"]
+    },
+    {
+      "name": "Cina",
+      "neighbors": ["Afghanistan", "Kazakistan", "Russia", "Birmania", "Bhutan", "Hong Kong", "Macao", "Corea del Nord", "India"]
+    },
+    {
+      "name": "Birmania",
+      "neighbors": ["Cina", "India"]
+    },
+    {
+      "name": "Bangladesh",
+      "neighbors": ["Birmania", "India"]
+    },
+    {
+      "name": "Bhutan",
+      "neighbors": ["Cina", "India"]
+    },
+    {
+      "name": "Hong Kong",
+      "neighbors": ["Cina"]
+    },
+    {
+      "name": "Macao",
+      "neighbors": ["Cina"]
+    },
+    {
+      "name": "Corea del Nord",
+      "neighbors": ["Cina", "Russia", "Corea del Sud"]
+    },
+    {
+      "name": "Corea del Sud",
+      "neighbors": ["Corea del Nord"]
+    },
+    {
+      "name": "Emirati Arabi Uniti",
+      "neighbors": ["Arabia Saudita"]
+    },
+    {
+      "name": "India",
+      "neighbors": ["Cina", "Bhutan", "Bangladesh", "Birmania"]
+    },
+    {
+      "name": "Canada",
+      "neighbors": ["Stati Uniti", "Danimarca"]
+    },
+    {
+      "name": "Stati Uniti",
+      "neighbors": ["Canada", "Messico"]
+    },
+    {
+      "name": "Messico",
+      "neighbors": ["Stati Uniti", "Belize", "Guatemala"]
+    },
+    {
+      "name": "Belize",
+      "neighbors": ["Messico", "Guatemala"]
+    },
+    {
+      "name": "Guatemala",
+      "neighbors": ["Messico", "Belize", "El Salvador", "Honduras"]
+    },
+    {
+      "name": "El Salvador",
+      "neighbors": ["Guatemala", "Honduras"]
+    },
+    {
+      "name": "Honduras",
+      "neighbors": ["El Salvador", "Guatemala", "Nicaragua"]
+    },
+    {
+      "name": "Nicaragua",
+      "neighbors": ["Honduras", "Costa Rica"]
+    },
+    {
+      "name": "Costa Rica",
+      "neighbors": ["Nicaragua", "Panama"]
+    },
+    {
+      "name": "Panama",
+      "neighbors": ["Costa Rica", "Colombia"]
+    },
+    {
+      "name": "Colombia",
+      "neighbors": ["Brasile", "Ecuador", "Panama"]
+    },
+    {
+      "name": "Ecuador",
+      "neighbors": ["Colombia"]
+    },
+    {
+      "name": "Argentina",
+      "neighbors": ["Bolivia", "Brasile", "Cile", "Paraguay"]
+    },
+    {
+      "name": "Bolivia",
+      "neighbors": ["Brasile", "Argentina", "Paraguay", "Cile"]
+    },
+    {
+      "name": "Brasile",
+      "neighbors": ["Colombia", "Guyana", "Argentina", "Paraguay", "Bolivia", "Francia"]
+    },
+    {
+      "name": "Cile",
+      "neighbors": ["Bolivia", "Argentina"]
+    },
+    {
+      "name": "Guyana",
+      "neighbors": ["Brasile"]
+    },
+    {
+      "name": "Paraguay",
+      "neighbors": ["Bolivia", "Brasile", "Argentina"]
+    }
+  ]
+}

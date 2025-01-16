@@ -1,0 +1,796 @@
+{
+  "allCountries" : [
+    {
+      "name" : "Afghanistan",
+      "neighbors" : ["Cina", "Iran", "Pakistan", "Tagikistan", "Turkmenistan", "Uzbekistan"]
+    },
+    {
+      "name" : "Albania",
+      "neighbors" : ["Grecia", "Italia", "Montenegro", "Macedonia del Nord", "Kosovo"]
+    },
+    {
+      "name" : "Algeria",
+      "neighbors" : ["Italia", "Libia", "Mali", "Mauritania", "Marocco", "Niger", "Spagna", "Tunisia"]
+    },
+    {
+      "name" : "Andorra",
+      "neighbors" : ["Francia", "Spagna"]
+    },
+    {
+      "name" : "Angola",
+      "neighbors" : ["RD Congo", "Repubblica del Congo", "Namibia", "Zambia"]
+    },
+    {
+      "name" : "Antigua e Barbuda",
+      "neighbors" : ["Francia", "Saint Kitts e Nevis"]
+    },
+    {
+      "name" : "Argentina",
+      "neighbors" : ["Bolivia", "Brasile", "Cile", "Paraguay", "Regno Unito", "Uruguay"]
+    },
+    {
+      "name" : "Armenia",
+      "neighbors" : ["Azerbaigian", "Georgia", "Iran", "Turchia"]
+    },
+    {
+      "name" : "Australia",
+      "neighbors" : ["Timor Est", "Indonesia", "Nuova Zelanda", "Papua Nuova Guinea", "Isole Salomone", "Francia"]
+    },
+    {
+      "name" : "Austria",
+      "neighbors" : ["Cechia", "Germania", "Ungheria", "Italia", "Liechtenstein", "Slovacchia", "Slovenia", "Svizzera"]
+    },
+    {
+      "name" : "Azerbaigian",
+      "neighbors" : ["Armenia", "Georgia", "Iran", "Kazakistan", "Russia", "Turchia", "Turkmenistan"]
+    },
+    {
+      "name" : "Bahamas",
+      "neighbors" : ["Cuba", "Haiti", "Stati Uniti", "Regno Unito"]
+    },
+    {
+      "name" : "Bahrain",
+      "neighbors" : ["Iran", "Qatar", "Arabia Saudita"]
+    },
+    {
+      "name" : "Bangladesh",
+      "neighbors" : ["Birmania", "India"]
+    },
+    {
+      "name" : "Barbados",
+      "neighbors" : ["Francia", "Guyana", "Santa Lucia", "Saint Vincent e Grenadine", "Trinidad e Tobago", "Venezuela"]
+    },
+    {
+      "name" : "Bielorussia",
+      "neighbors" : ["Lettonia", "Lituania", "Polonia", "Russia", "Ucraina"]
+    },
+    {
+      "name" : "Belgio",
+      "neighbors" : ["Francia", "Germania", "Lussemburgo", "Paesi Bassi", "Regno Unito"]
+    },
+    {
+      "name" : "Belize",
+      "neighbors" : ["Guatemala", "Honduras", "Messico"]
+    },
+    {
+      "name" : "Benin",
+      "neighbors" : ["Burkina Faso", "Niger", "Nigeria", "Tagikistan", "Togo"]
+    },
+    {
+      "name" : "Bhutan",
+      "neighbors" : ["Cina", "India"]
+    },
+    {
+      "name" : "Bolivia",
+      "neighbors" : ["Argentina", "Brasile", "Cile", "Paraguay", "Peru"]
+    },
+    {
+      "name" : "Bosnia ed Erzegovina",
+      "neighbors" : ["Croazia", "Montenegro", "Serbia"]
+    },
+    {
+      "name" : "Botswana",
+      "neighbors" : ["Namibia", "Sudafrica", "Zambia", "Zimbabwe"]
+    },
+    {
+      "name" : "Brasile",
+      "neighbors" : ["Argentina", "Bolivia", "Colombia", "Francia", "Guyana", "Paraguay", "Peru", "Suriname", "Uruguay", "Venezuela"]
+    },
+    {
+      "name" : "Brunei",
+      "neighbors" : ["Cina", "Malesia", "Filippine", "Taiwan", "Vietnam"]
+    },
+    {
+      "name" : "Bulgaria",
+      "neighbors" : ["Grecia", "Macedonia del Nord", "Romania", "Serbia", "Turchia", "Russia", "Ucraina"]
+    },
+    {
+      "name" : "Burkina Faso",
+      "neighbors" : ["Benin", "Costa d'Avorio", "Ghana", "Mali", "Niger", "Togo"]
+    },
+    {
+      "name" : "Burundi",
+      "neighbors" : ["RD Congo", "Ruanda", "Tanzania"]
+    },
+    {
+      "name" : "Cambogia",
+      "neighbors" : ["Laos", "Tailandia", "Vietnam"]
+    },
+    {
+      "name" : "Camerun",
+      "neighbors" : ["Repubblica Centrafricana", "Ciad", "Repubblica del Congo", "Guinea Equatoriale", "Gabon", "Nigeria"]
+    },
+    {
+      "name" : "Canada",
+      "neighbors" : ["Stati Uniti", "Danimarca", "Francia"]
+    },
+    {
+      "name" : "Capo Verde",
+      "neighbors" : ["Gambia", "Mauritania", "Senegal"]
+    },
+    {
+      "name" : "Repubblica Centrafricana",
+      "neighbors" : ["Camerun", "Ciad", "RD Congo", "Repubblica del Congo", "Sudan del Sud", "Sudan"]
+    },
+    {
+      "name" : "Ciad",
+      "neighbors" : ["Camerun", "Repubblica Centrafricana", "Libia", "Niger", "Nigeria", "Sudan"]
+    },
+    {
+      "name" : "Cile",
+      "neighbors" : ["Argentina", "Bolivia", "Peru"]
+    },
+    {
+      "name" : "Cina",
+      "neighbors" : ["Afghanistan", "Bhutan", "Brunei", "India", "Indonesia", "Giappone", "Kazakistan", "Cored del Nord", "Corea del Sud", "Kirghizistan", "Laos", "Malesia", "Mongolia", "Birmania", "Nepal", "Pakistan", "Filippine", "Russia", "Tagikistan", "Vietnam", "Hong Kong", "Macao", "Taiwan"]
+    },
+    {
+      "name" : "Colombia",
+      "neighbors" : ["Brasile", "Costa Rica", "Repubblica Dominicana", "Ecuador", "Haiti", "Giamaica", "Nicaragua", "Panama", "Peru", "Venezuela"]
+    },
+    {
+      "name" : "Comore",
+      "neighbors" : ["Francia", "Madagascar", "Mozambico", "Seychelles", "Tanzania"]
+    },
+    {
+      "name" : "RD Congo",
+      "neighbors" : ["Angola", "Burundi", "Repubblica Centrafricana", "Repubblica del Congo", "Ruanda", "Sudan del Sud", "Tanzania", "Uganda", "Zambia"]
+    },
+    {
+      "name" : "Repubblica del Congo",
+      "neighbors" : ["Angola", "Camerun", "Repubblica Centrafricana", "RD Congo", "Gabon"]
+    },
+    {
+      "name" : "Costa Rica",
+      "neighbors" : ["Colombia", "Ecuador", "Nicaragua", "Panama"]
+    },
+    {
+      "name" : "Costa d'Avorio",
+      "neighbors" : ["Burkina Faso", "Ghana", "Guinea", "Liberia", "Mali"]
+    },
+    {
+      "name" : "Croazia",
+      "neighbors" : ["Bosnia ed Erzegovina", "Ungheria", "Italia", "Montenegro", "Serbia", "Slovenia"]
+    },
+    {
+      "name" : "Cuba",
+      "neighbors" : ["Bahamas", "Haiti", "Honduras", "Giamaica", "Messico", "Stati Uniti", "Regno Unito"]
+    },
+    {
+      "name" : "Cipro",
+      "neighbors" : ["Egitto", "Grecia", "Israele", "Libano", "Siria", "Turchia", "Regno Unito"]
+    },
+    {
+      "name" : "Cechia",
+      "neighbors" : ["Austria", "Germania", "Polonia", "Slovacchia"]
+    },
+    {
+      "name" : "Danimarca",
+      "neighbors" : ["Canada", "Germania", "Islanda", "Norvegia", "Polonia", "Svezia", "Regno Unito"]
+    },
+    {
+      "name" : "Gibuti",
+      "neighbors" : ["Eritrea", "Etiopia", "Somalia", "Yemen"]
+    },
+    {
+      "name" : "Dominica",
+      "neighbors" : ["Francia", "Venezuela"]
+    },
+    {
+      "name" : "Repubblica Dominicana",
+      "neighbors" : ["Colombia", "Haiti", "Venezuela", "Paesi Bassi", "Stati Uniti", "Regno Unito"]
+    },
+    {
+      "name" : "Timor Est",
+      "neighbors" : ["Australia", "Indonesia", "Australia"]
+    },
+    {
+      "name" : "Ecuador",
+      "neighbors" : ["Colombia", "Costa Rica", "Peru"]
+    },
+    {
+      "name" : "Egitto",
+      "neighbors" : ["Cipro", "Grecia", "Israele", "Giordania", "Libia", "Arabia Saudita", "Sudan", "Palestina"]
+    },
+    {
+      "name" : "El Salvador",
+      "neighbors" : ["Guatemala", "Honduras", "Nicaragua"]
+    },
+    {
+      "name" : "Guinea Equatoriale",
+      "neighbors" : ["Camerun", "Gabon", "Nigeria", "Sao Tome e Principe"]
+    },
+    {
+      "name" : "Eritrea",
+      "neighbors" : ["Gibuti", "Arabia Saudita", "Sudan", "Etiopia", "Yemen"]
+    },
+    {
+      "name" : "Estonia",
+      "neighbors" : ["Finlandia", "Lettonia", "Russia", "Svezia"]
+    },
+    {
+      "name" : "eSwatini",
+      "neighbors" : ["Mozambico", "Sudafrica"]
+    },
+    {
+      "name" : "Etiopia",
+      "neighbors" : ["Gibuti", "Eritrea", "Kenya", "Somalia", "Sudan del Sud", "Sudan"]
+    },
+    {
+      "name" : "Figi",
+      "neighbors" : ["Nuova Zelanda", "Isole Salomone", "Tonga", "Tuvalu", "Vanuatu", "Francia"]
+    },
+    {
+      "name" : "Finlandia",
+      "neighbors" : ["Estonia", "Norvegia", "Russia", "Svezia"]
+    },
+    {
+      "name" : "Francia",
+      "neighbors" : ["Andorra", "Antigua e Barbuda", "Barbados", "Belgio", "Brasile", "Canada", "Comore", "Dominica", "Figi", "Germania", "Italia", "Kiribati", "Lussemburgo", "Madagascar", "Mauritius", "Monaco", "Mozambico", "Paesi Bassi", "Saint Kitts e Nevis", "Santa Lucia", "Samoa", "Seychelles", "Isole Salomone", "Spagna", "Suriname", "Svizzera", "Tonga", "Tuvalu", "Regno Unito", "Vanuatu", "Venezuela", "Nuova Zelanda", "Australia"]
+    },
+    {
+      "name" : "Gabon",
+      "neighbors" : ["Camerun", "Repubblica del Congo", "Guinea Equatoriale", "Sao Tome e Principe"]
+    },
+    {
+      "name" : "Gambia",
+      "neighbors" : ["Capo Verde", "Senegal"]
+    },
+    {
+      "name" : "Georgia",
+      "neighbors" : ["Armenia", "Azerbaigian", "Russia", "Turchia"]
+    },
+    {
+      "name" : "Germania",
+      "neighbors" : ["Austria", "Belgio", "Cechia", "Danimarca", "Francia", "Lussemburgo", "Paesi Bassi", "Polonia", "Svezia", "Svizzera", "Regno Unito"]
+    },
+    {
+      "name" : "Ghana",
+      "neighbors" : ["Burkina Faso", "Costa d'Avorio", "Togo"]
+    },
+    {
+      "name" : "Grecia",
+      "neighbors" : ["Albania", "Bulgaria", "Cipro", "Egitto", "Italia", "Libia", "Macedonia del Nord", "Turchia"]
+    },
+    {
+      "name": "Grenada",
+      "neighbors": ["Saint Vincent e Grenadine", "Trinidad e Tobago", "Venezuela"]
+    },
+    {
+      "name" : "Guatemala",
+      "neighbors" : ["Belize", "El Salvador", "Honduras", "Messico"]
+    },
+    {
+      "name" : "Guinea",
+      "neighbors" : ["Costa d'Avorio", "Guinea-Bissau", "Liberia", "Mali", "Senegal", "Sierra Leone"]
+    },
+    {
+      "name" : "Guinea-Bissau",
+      "neighbors" : ["Guinea", "Senegal"]
+    },
+    {
+      "name" : "Guyana",
+      "neighbors" : ["Barbados", "Brasile", "Suriname", "Trinidad e Tobago", "Venezuela"]
+    },
+    {
+      "name" : "Haiti",
+      "neighbors" : ["Bahamas", "Colombia", "Cuba", "Repubblica Dominicana", "Giamaiaca", "Stati Uniti", "Regno Unito"]
+    },
+    {
+      "name" : "Honduras",
+      "neighbors" : ["Belize", "Cuba", "El Salvador", "Guatemala", "Giamaica", "Messico", "Nicaragua", "Regno Unito"]
+    },
+    {
+      "name" : "Hong Kong",
+      "neighbors" : ["Cina", "Macao"]
+    },
+    {
+      "name" : "Ungheria",
+      "neighbors" : ["Austria", "Croazia", "Romania", "Serbia", "Slovacchia", "Slovenia", "Ucraina"]
+    },
+    {
+      "name" : "Islanda",
+      "neighbors" : ["Danimarca", "Norvegia"]
+    },
+    {
+      "name" : "India",
+      "neighbors" : ["Bangladesh", "Bhutan", "Cina", "Indonesia", "Maldive", "Birmania", "Nepal", "Pakistan", "Sri Lanka", "Tailandia"]
+    },
+    {
+      "name" : "Indonesia",
+      "neighbors" : ["Australia", "Cina", "Timor Est", "India", "Malesia", "Palau", "Papua Nuova Guinea", "Filippine", "Singapore", "Taiwan", "Tailandia", "Vietnam"]
+    },
+    {
+      "name" : "Iran",
+      "neighbors" : ["Afghanistan", "Armenia", "Azerbaigian", "Bahrain", "Iraq", "Kuwait", "Oman", "Pakistan", "Qatar", "Arabia Saudita", "Turchia", "Turkmenistan", "Emirati Arabi Uniti"]
+    },
+    {
+      "name" : "Iraq",
+      "neighbors" : ["Iran", "Giordania", "Kuwait", "Arabia Saudita", "Siria", "Turchia"]
+    },
+    {
+      "name" : "Irlanda",
+      "neighbors" : ["Regno Unito"]
+    },
+    {
+      "name" : "Israele",
+      "neighbors" : ["Cipro", "Egitto", "Giordania", "Libano", "Siria", "Palestina"]
+    },
+    {
+      "name" : "Italia",
+      "neighbors" : ["Albania", "Algeria", "Austria", "Croazia", "Francia", "Grecia", "Libia", "Malta", "Montenegro", "San Marino", "Slovenia", "Spagna", "Svizzera", "Tunisia", "Città del Vaticano"]
+    },
+    {
+      "name" : "Giamaica",
+      "neighbors" : ["Colombia", "Cuba", "Haiti", "Honduras", "Nicaragua", "Regno Unito", "Stati Uniti"]
+    },
+    {
+      "name" : "Giappone",
+      "neighbors" : ["Cina", "Corea del Sud", "Corea del Nord", "Filippine", "Russia", "Stati Uniti", "Taiwan"]
+    },
+    {
+      "name" : "Giordania",
+      "neighbors" : ["Egitto", "Iraq", "Israele", "Arabia Saudita", "Siria", "Palestina"]
+    },
+    {
+      "name" : "Kazakistan",
+      "neighbors" : ["Azerbaigian", "Cina", "Kirghizistan", "Russia", "Turkmenistan", "Uzbekistan"]
+    },
+    {
+      "name" : "Kenya",
+      "neighbors" : ["Etiopia", "Somalia", "Sudan del Sud", "Tanzania", "Uganda"]
+    },
+    {
+      "name" : "Kiribati",
+      "neighbors" : ["Isole Marshall", "Nauru", "Tuvalu", "Nuova Zelanda", "Francia", "Stati Uniti"]
+    },
+    {
+      "name" : "Corea del Nord",
+      "neighbors" : ["Cina", "Corea del Sud", "Russia", "Giappone"]
+    },
+    {
+      "name" : "Corea del Sud",
+      "neighbors" : ["Cina", "Giappone", "Corea del Nord"]
+    },
+    {
+      "name" : "Kosovo",
+      "neighbors" : ["Albania", "Montenegro", "Macedonia del Nord", "Serbia"]
+    },
+    {
+      "name" : "Kuwait",
+      "neighbors" : ["Iran", "Iraq", "Arabia Saudita"]
+    },
+    {
+      "name" : "Kirghizistan",
+      "neighbors" : ["Cina", "Kazakistan", "Tagikistan", "Uzbekistan"]
+    },
+    {
+      "name" : "Laos",
+      "neighbors" : ["Birmania", "Cambogia", "Cina", "Tailandia", "Vietnam"]
+    },
+    {
+      "name" : "Lettonia",
+      "neighbors" : ["Bielorussia", "Estonia", "Lituania", "Russia", "Svezia"]
+    },
+    {
+      "name" : "Libano",
+      "neighbors" : ["Cipro", "Israele", "Siria"]
+    },
+    {
+      "name" : "Lesotho",
+      "neighbors" : ["Sudafrica"]
+    },
+    {
+      "name" : "Liberia",
+      "neighbors" : ["Costa d'Avorio", "Guinea", "Sierra Leone"]
+    },
+    {
+      "name" : "Libia",
+      "neighbors" : ["Algeria", "Ciad", "Egitto", "Grecia", "Italia", "Malta", "Niger", "Sudan", "Tunisia"]
+    },
+    {
+      "name" : "Liechtenstein",
+      "neighbors" : ["Austria", "Svizzera"]
+    },
+    {
+      "name" : "Lituania",
+      "neighbors" : ["Bielorussia", "Lettonia", "Polonia", "Russia", "Svezia"]
+    },
+    {
+      "name" : "Lussemburgo",
+      "neighbors" : ["Belgio", "Francia", "Germania"]
+    },
+    {
+      "name" : "Macao",
+      "neighbors" : ["Cina", "Hong Kong"]
+    },
+    {
+      "name" : "Madagascar",
+      "neighbors" : ["Comore", "Francia", "Mauritius", "Mozambico", "Seychelles"]
+    },
+    {
+      "name" : "Malawi",
+      "neighbors" : ["Mozambico", "Tanzania", "Zambia"]
+    },
+    {
+      "name" : "Malesia",
+      "neighbors" : ["Brunei", "Cina", "Indonesia", "Filippine", "Singapore", "Tailandia", "Vietnam", "Taiwan"]
+    },
+    {
+      "name" : "Maldive",
+      "neighbors" : ["India", "Sri Lanka", "Regno Unito", "Mauritius"]
+    },
+    {
+      "name" : "Mali",
+      "neighbors" : ["Algeria", "Burkina Faso", "Costa d'Avorio", "Guinea", "Mauritania", "Niger", "Senegal"]
+    },
+    {
+      "name" : "Malta",
+      "neighbors" : ["Italia", "Libia"]
+    },
+    {
+      "name" : "Isole Marshall",
+      "neighbors" : ["Kiribati", "Stati Federati di Micronesia", "Nauru", "Stati Uniti"]
+    },
+    {
+      "name" : "Mauritania",
+      "neighbors" : ["Algeria", "Capo Verde", "Mali", "Senegal", "Marocco"]
+    },
+    {
+      "name" : "Mauritius",
+      "neighbors" : ["Francia", "Madagascar", "Seychelles", "Maldive"]
+    },
+    {
+      "name" : "Messico",
+      "neighbors" : ["Belize", "Cuba", "Guatemala", "Honduras", "Stati Uniti"]
+    },
+    {
+      "name" : "Stati Federati di Micronesia",
+      "neighbors" : ["Isole Marshall", "Palau", "Papua Nuova Guinea", "Stati Uniti"]
+    },
+    {
+      "name" : "Moldavia",
+      "neighbors" : ["Romania", "Ucraina"]
+    },
+    {
+      "name" : "Monaco",
+      "neighbors" : ["Francia"]
+    },
+    {
+      "name" : "Mongolia",
+      "neighbors" : ["Cina", "Russia"]
+    },
+    {
+      "name" : "Montenegro",
+      "neighbors" : ["Albania", "Bosnia ed Erzegovina", "Croazia", "Italia", "Serbia", "Kosovo"]
+    },
+    {
+      "name" : "Marocco",
+      "neighbors" : ["Algeria", "Portogallo", "Spagna", "Mauritania"]
+    },
+    {
+      "name" : "Mozambico",
+      "neighbors" : ["Comore", "eSwatini", "Madagascar", "Malawi", "Sudafrica", "Tanzania", "Zambia", "Zimbabwe", "Francia"]
+    },
+    {
+      "name" : "Birmania",
+      "neighbors" : ["Bangladesh", "Cina", "India", "Laos", "Tailandia"]
+    },
+    {
+      "name" : "Namibia",
+      "neighbors" : ["Angola", "Botswana", "Sudafrica", "Zambia"]
+    },
+    {
+      "name" : "Nauru",
+      "neighbors" : ["Kiribati", "Isole Marshall"]
+    },
+    {
+      "name" : "Nepal",
+      "neighbors" : ["India", "Cina"]
+    },
+    {
+      "name" : "Paesi Bassi",
+      "neighbors" : ["Belgio", "Repubblica Dominicana", "Germania", "Saint Kitts and Nevis", "Regno Unito", "Venezuela", "Francia", "Stati Uniti"]
+    },
+    {
+      "name" : "Nuova Zelanda",
+      "neighbors" : ["Australia", "Figi", "Kiribati", "Samoa", "Tonga", "Stati Uniti", "Francia"]
+    },
+    {
+      "name" : "Nicaragua",
+      "neighbors" : ["Colombia", "Costa Rica", "El Salvador", "Honduras", "Giamaica", "Panama"]
+    },
+    {
+      "name" : "Niger",
+      "neighbors" : ["Algeria", "Benin", "Burkina Faso", "Ciad", "Libia", "Mali", "Nigeria"]
+    },
+    {
+      "name" : "Nigeria",
+      "neighbors" : ["Benin", "Camerun", "Ciad", "Guinea Equatoriale", "Nigeria", "Sao Tome e Principe"]
+    },
+    {
+      "name" : "Macedonia del Nord",
+      "neighbors" : ["Albania", "Bulgaria", "Grecia", "Serbia", "Kosovo"]
+    },
+    {
+      "name" : "Norvegia",
+      "neighbors" : ["Danimarca", "Finlandia", "Islanda", "Russia", "Svezia", "Regno Unito"]
+    },
+    {
+      "name" : "Oman",
+      "neighbors" : ["Iran", "Pakistan", "Arabia Saudita", "Emirati Arabi Uniti", "Yemen"]
+    },
+    {
+      "name" : "Pakistan",
+      "neighbors" : ["Afghanistan", "Cina", "India", "Iran", "Oman"]
+    },
+    {
+      "name" : "Palau",
+      "neighbors" : ["Indonesia", "Stati Federati di Micronesia", "Filippine"]
+    },
+    {
+      "name" : "Palestina",
+      "neighbors" : ["Egitto", "Israele", "Giordania"]
+    },
+    {
+      "name" : "Panama",
+      "neighbors" : ["Colombia", "Costa Rica", "Nicaragua"]
+    },
+    {
+      "name" : "Papua Nuova Guinea",
+      "neighbors" : ["Australia", "Indonesia", "Stati Federati di Micronesia", "Isole Salomone"]
+    },
+    {
+      "name" : "Paraguay",
+      "neighbors" : ["Argentina", "Bolivia", "Brasile"]
+    },
+    {
+      "name" : "Peru",
+      "neighbors" : ["Bolivia", "Brasile", "Cile", "Colombia", "Ecuador"]
+    },
+    {
+      "name" : "Filippine",
+      "neighbors" : ["Brunei", "Cina", "Indonesia", "Giappone", "Malesia", "Palau", "Vietnam", "Taiwan"]
+    },
+    {
+      "name" : "Polonia",
+      "neighbors" : ["Bielorussia", "Cechia", "Danimarca", "Germania", "Lituania", "Russia", "Slovacchia", "Svezia", "Ucraina"]
+    },
+    {
+      "name" : "Portogallo",
+      "neighbors" : ["Marocco", "Spagna"]
+    },
+    {
+      "name" : "Qatar",
+      "neighbors" : ["Bahrain", "Iran", "Arabia Saudita", "Emirati Arabi Uniti"]
+    },
+    {
+      "name" : "Romania",
+      "neighbors" : ["Bulgaria", "Ungheria", "Moldavia", "Russia", "Serbia", "Ucraina"]
+    },
+    {
+      "name" : "Russia",
+      "neighbors" : ["Azerbaigian", "Bielorussia", "Bulgaria", "Cina", "Estonia", "Finlandia", "Georgia", "Giappone", "Kazakistan", "Corea del Nord", "Lettonia", "Lituania", "Mongolia", "Norvegia", "Polonia", "Romania", "Svezia", "Turchia", "Ucraina", "Stati Uniti"]
+    },
+    {
+      "name" : "Ruanda",
+      "neighbors" : ["Burundi", "RD Congo", "Tanzania", "Uganda"]
+    },
+    {
+      "name" : "Saint Kitts e Nevis",
+      "neighbors" : ["Antigua e Barbuda", "Paesi Bassi", "Venezuela", "Regno Unito", "Francia"]
+    },
+    {
+      "name" : "Santa Lucia",
+      "neighbors" : ["Barbados", "Francia", "Saint Vincent e Grenadine", "Venezuela"]
+    },
+    {
+      "name" : "Samoa",
+      "neighbors" : ["Tonga", "Stati Uniti", "Nuova Zelanda", "Francia"]
+    },
+    {
+      "name" : "San Marino",
+      "neighbors" : ["Italia"]
+    },
+    {
+      "name" : "Sao Tome e Principe",
+      "neighbors" : ["Guinea Equatoriale", "Gabon", "Nigeria"]
+    },
+    {
+      "name" : "Arabia Saudita",
+      "neighbors" : ["Bahrain", "Egitto", "Eritrea", "Iran", "Iraq", "Giordania", "Kuwait", "Oman", "Qatar", "Sudan", "Emirati Arabi Uniti", "Yemen"]
+    },
+    {
+      "name" : "Senegal",
+      "neighbors" : ["Capo Verde", "Gambia", "Guinea", "Guinea-Bissau", "Mali", "Mauritania"]
+    },
+    {
+      "name" : "Serbia",
+      "neighbors" : ["Bosnia ed Erzegovina", "Bulgaria", "Croazia", "Ungheria", "Montenegro", "Macedonia del Nord", "Romania", "Kosovo"]
+    },
+    {
+      "name" : "Seychelles",
+      "neighbors" : ["Comore", "Madagascar", "Mauritius", "Tanzania", "Francia"]
+    },
+    {
+      "name" : "Sierra Leone",
+      "neighbors" : ["Guinea", "Liberia"]
+    },
+    {
+      "name" : "Singapore",
+      "neighbors" : ["Indonesia", "Malesia"]
+    },
+    {
+      "name" : "Slovacchia",
+      "neighbors" : ["Austria", "Cechia", "Ungheria", "Polonia", "Ucraina"]
+    },
+    {
+      "name" : "Slovenia",
+      "neighbors" : ["Austria", "Croazia", "Italia", "Ungheria"]
+    },
+    {
+      "name" : "Isole Salomone",
+      "neighbors" : ["Figi", "Papua Nuova Guinea", "Vanuatu", "Australia", "Francia"]
+    },
+    {
+      "name" : "Somalia",
+      "neighbors" : ["Etiopia", "Kenya", "Gibuti", "Yemen"]
+    },
+    {
+      "name" : "Sudafrica",
+      "neighbors" : ["Botswana", "eSwatini", "Lesotho", "Mozambico", "Namibia", "Zimbabwe"]
+    },
+    {
+      "name" : "Sudan del Sud",
+      "neighbors" : ["Repubblica Centrafricana", "RD Congo", "Etiopia", "Kenya", "Sudan", "Uganda"]
+    },
+    {
+      "name" : "Spagna",
+      "neighbors" : ["Algeria", "Andorra", "Francia", "Italia", "Marocco", "Portogallo", "Regno Unito"]
+    },
+    {
+      "name" : "Sri Lanka",
+      "neighbors" : ["India", "Maldive"]
+    },
+    {
+      "name" : "Suriname",
+      "neighbors" : ["Brasile", "Francia", "Guyana"]
+    },
+    {
+      "name" : "Svezia",
+      "neighbors" : ["Danimarca", "Estonia", "Finlandia", "Germania", "Lettonia", "Lituania", "Norvegia", "Polonia", "Russia"]
+    },
+    {
+      "name" : "Svizzera",
+      "neighbors" : ["Austria", "Francia", "Italia", "Liechtenstein", "Germania"]
+    },
+    {
+      "name" : "Siria",
+      "neighbors" : ["Cipro", "Iraq", "Israele", "Giordania", "Libano", "Turchia"]
+    },
+    {
+      "name" : "Taiwan",
+      "neighbors" : ["Brunei", "Cina", "Indonesia", "Giappone", "Malesia", "Filippine", "Vietnam"]
+    },
+    {
+      "name" : "Tagikistan",
+      "neighbors" : ["Afghanistan", "Cina", "Kirghizistan", "Uzbekistan"]
+    },
+    {
+      "name" : "Afghanistan",
+      "neighbors" : ["Cina", "Iran", "Pakistan", "Tagikistan", "Turkmenistan", "Uzbekistan"]
+    },
+    {
+      "name" : "Tanzania",
+      "neighbors" : ["Burundi", "Comore", "RD Congo", "Kenya", "Malawi", "Mozambico", "Ruanda", "Seychelles", "Uganda", "Zambia"]
+    },
+    {
+      "name" : "Tailandia",
+      "neighbors" : ["Birmania", "Cambogia", "India", "Indonesia", "Laos", "Malesia", "Vietnam"]
+    },
+    {
+      "name" : "Togo",
+      "neighbors" : ["Benin", "Burkina Faso", "Ghana"]
+    },
+    {
+      "name" : "Tonga",
+      "neighbors" : ["Figi", "Samoa", "Stati Uniti", "Nuova Zelanda", "Francia"]
+    },
+    {
+      "name" : "Trinidad e Tobago",
+      "neighbors" : ["Barbados", "Grenada", "Guyana", "Saint Vincent e Grenadine", "Venezuela"]
+    },
+    {
+      "name" : "Tunisia",
+      "neighbors" : ["Algeria", "Italia", "Libia"]
+    },
+    {
+      "name" : "Turchia",
+      "neighbors" : ["Armenia", "Azerbaigian", "Bulgaria", "Cipro", "Georgia", "Grecia", "Iran", "Iraq", "Russia", "Siria", "Ucraina"]
+    },
+    {
+      "name" : "Turkmenistan",
+      "neighbors" : ["Afghanistan", "Azerbaigian", "Iran", "Kazakistan", "Uzbekistan"]
+    },
+    {
+      "name" : "Tuvalu",
+      "neighbors" : ["Figi", "Kiribati", "Francia"]
+    },
+    {
+      "name" : "Uganda",
+      "neighbors" : ["RD Congo", "Kenya", "Ruanda", "Sudan del Sud", "Tanzania"]
+    },
+    {
+      "name" : "Ucraina",
+      "neighbors" : ["Bielorussia", "Bulgaria", "Ungheria", "Moldavia", "Polonia", "Romania", "Russia", "Slovacchia", "Turchia"]
+    },
+    {
+      "name" : "Emirati Arabi Uniti",
+      "neighbors" : ["Iran", "Oman", "Qatar", "Arabia Saudita"]
+    },
+    {
+      "name" : "Regno Unito",
+      "neighbors" : ["Antigua e Barbuda", "Argentina", "Bahamas", "Belgio", "Cuba", "Cipro", "Danimarca", "Repubblica Dominicana", "Francia", "Germania", "Haiti", "Honduras", "Irlanda", "Giamaica", "Maldive", "Paesi Bassi", "Norvegia", "Saint Kitts e Nevis", "Spagna", "Venezuela", "Stati Uniti"]
+    },
+    {
+      "name" : "Stati Uniti",
+      "neighbors" : ["Bahamas", "Canada", "Cuba", "Repubblica Dominicana", "Haiti", "Giamaica", "Giappone", "Kiribati", "Isole Marshall", "Messico", "Stati Federati di Micronesia", "Paesi Bassi", "Russia", "Samoa", "Tonga", "Venezuela", "Regno Unito", "Nuova Zelanda"]
+    },
+    {
+      "name" : "Uruguay",
+      "neighbors" : ["Argentina", "Brasile"]
+    },
+    {
+      "name" : "Uzbekistan",
+      "neighbors" : ["Afghanistan", "Kazakistan", "Kirghizistan", "Tagikistan", "Turkmenistan"]
+    },
+    {
+      "name" : "Vanuatu",
+      "neighbors" : ["Figi", "Isole Salomone", "Francia"]
+    },
+    {
+      "name" : "Città del Vaticano",
+      "neighbors" : ["Italia"]
+    },
+    {
+      "name" : "Venezuela",
+      "neighbors" : ["Barbados", "Brasile", "Colombia", "Dominica", "Repubblica Dominicana", "Francia", "Grenada", "Guyana", "Paesi Bassi", "Saint Kitts e Nevis", "Santa Lucia", "Saint Vincent e Grenadine", "Trinidad e Tobago", "Regno Unito", "Stati Uniti"]
+    },
+    {
+      "name" : "Vietnam",
+      "neighbors" : ["Brunei", "Cambogia", "Cina", "Indonesia", "Laos", "Malesia", "Filippine", "Taiwan", "Tailandia"]
+    },
+    {
+      "name" : "Yemen",
+      "neighbors" : ["Gibuti", "Eritrea", "Oman", "Arabia Saudita", "Somalia"]
+    },
+    {
+      "name" : "Zambia",
+      "neighbors" : ["Angola", "Botswana", "RD Congo", "Malawi", "Mozambico", "Namibia", "Tanzania", "Zimbabwe"]
+    },
+    {
+      "name" : "Zimbabwe",
+      "neighbors" : ["Botswana", "Mozambico", "Sudafrica", "Zambia"]
+    }
+  ]
+}

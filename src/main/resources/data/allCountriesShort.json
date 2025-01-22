@@ -1,0 +1,124 @@
+{
+  "allCountries": [
+    {
+      "name": "Austria",
+      "neighbors": ["Italia", "Slovenia", "Ungheria", "Slovacchia", "Cechia", "Germania"],
+      "image" : "/img/austria.png"
+    },
+    {
+      "name": "Belgio",
+      "neighbors": ["Paesi Bassi", "Germania", "Lussemburgo", "Francia"],
+      "image" : "/img/belgio.png"
+    },
+    {
+      "name": "Bulgaria",
+      "neighbors": ["Grecia", "Romania"],
+      "image" : "/img/bulgaria.png"
+    },
+    {
+      "name": "Croazia",
+      "neighbors": ["Slovenia", "Ungheria"],
+      "image" : "/img/croazia.png"
+    },
+    {
+      "name": "Danimarca",
+      "neighbors": ["Germania"],
+      "image" : "/img/danimarca.png"
+    },
+    {
+      "name": "Estonia",
+      "neighbors": ["Lettonia"],
+      "image" : "/img/estonia.png"
+    },
+    {
+      "name": "Finlandia",
+      "neighbors": ["Svezia"],
+      "image" : "/img/finlandia.png"
+    },
+    {
+      "name": "Francia",
+      "neighbors": ["Spagna", "Germania", "Italia", "Lussemburgo", "Belgio"],
+      "image" : "/img/francia.png"
+    },
+    {
+      "name": "Germania",
+      "neighbors": ["Francia", "Paesi Bassi", "Lussemburgo", "Belgio","Austria", "Cechia", "Danimarca","Polonia"],
+      "image" : "/img/germania.png"
+    },
+    {
+      "name": "Grecia",
+      "neighbors": ["Bulgaria"],
+      "image" : "/img/grecia.png"
+    },
+    {
+      "name": "Italia",
+      "neighbors": ["Francia", "Austria", "Slovenia"],
+      "image" : "/img/italia.png"
+    },
+    {
+      "name": "Lettonia",
+      "neighbors": ["Lituania", "Estonia"],
+      "image" : "/img/lettonia.png"
+    },
+    {
+      "name": "Lituania",
+      "neighbors": ["Lettonia", "Polonia"],
+      "image" : "/img/lituania.png"
+    },
+    {
+      "name": "Lussemburgo",
+      "neighbors": ["Francia", "Germania", "Belgio"],
+      "image" : "/img/lussemburgo.png"
+    },
+    {
+      "name": "Paesi Bassi",
+      "neighbors": ["Belgio", "Germania"],
+      "image" : "/img/paesiBassi.png"
+    },
+    {
+      "name": "Polonia",
+      "neighbors": ["Germania", "Cechia", "Slovacchia", "Lituania"],
+      "image" : "/img/polonia.png"
+    },
+    {
+      "name": "Portogallo",
+      "neighbors": ["Spagna"],
+      "image" : "/img/portogallo.png"
+    },
+    {
+      "name": "Cechia",
+      "neighbors": ["Germania", "Austria", "Polonia", "Slovacchia"],
+      "image" : "/img/cechia.png"
+    },
+    {
+      "name": "Romania",
+      "neighbors": ["Ungheria", "Bulgaria"],
+      "image" : "/img/romania.png"
+    },
+    {
+      "name": "Slovacchia",
+      "neighbors": ["Austria", "Cechia", "Polonia", "Ungheria"],
+      "image" : "/img/slovacchia.png"
+    },
+    {
+      "name": "Slovenia",
+      "neighbors": ["Italia", "Croazia", "Ungheria", "Austria"],
+      "image" : "/img/slovenia.png"
+    },
+    {
+      "name": "Spagna",
+      "neighbors": ["Portogallo", "Francia"],
+      "image" : "/img/spagna.png"
+    },
+    {
+      "name": "Svezia",
+      "neighbors": ["Finlandia"],
+      "image" : "/img/svezia.png"
+    },
+    {
+      "name": "Ungheria",
+      "neighbors": ["Slovacchia", "Romania", "Croazia", "Austria", "Slovenia"],
+      "image" : "/img/ungheria.png"
+    }
+  ]
+}

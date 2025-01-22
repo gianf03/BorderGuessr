@@ -8,7 +8,7 @@ import interfaces.Move;
 import java.util.List;
 
 public class MinimaxAIHeuristic extends MinimaxAI {
-    private static final int MAXDEPTH = 14;
+    private static final int MAXDEPTH = 12;
     @Override
     public Move findBestMove(Board currentBoard) {
         return minimax(currentBoard, true, Integer.MIN_VALUE , Integer.MAX_VALUE, 0).getMove();

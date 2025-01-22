@@ -1,3 +1,5 @@
+package algorithms.minimax;
+
 import interfaces.Algorithm;
 import interfaces.Board;
 import interfaces.Move;

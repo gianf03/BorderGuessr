@@ -1,13 +1,22 @@
+package algorithms.uninformedSearch;
+
+import game.BorderGuessrBoard;
+import game.BorderGuessrMove;
+import game.Country;
+import game.Nodo;
 import interfaces.Algorithm;
 import interfaces.Board;
 import interfaces.Move;
 
 import java.util.*;
 
-public class DepthFirstSearch implements Algorithm {
-    @Override
+public class BreadthFirstSearch implements Algorithm {
+
+    public BreadthFirstSearch() {
+    }
+
     public Move findBestMove(Board currentBoard) {
-        Move bestMove = depthFirstSearch(currentBoard);
+        Move bestMove = breadthFirstSearch(currentBoard);
 
         //se non ci sono country che vengono fuori dalla ricerca in ampiezza, ne restituisco uno a caso tra quelli confinanti non ancora detti
         if (bestMove == null) {
@@ -35,7 +44,8 @@ public class DepthFirstSearch implements Algorithm {
         return bestMove;
     }
 
-    public Move depthFirstSearch(Board currentBoard) {
+
+    public Move breadthFirstSearch(Board currentBoard) {
         List<Nodo> frontiera = new ArrayList<>();
 
         BorderGuessrBoard borderGuessrBoard = (BorderGuessrBoard) currentBoard;
@@ -45,18 +55,19 @@ public class DepthFirstSearch implements Algorithm {
             saidCountries.add(c.getName());
         }
 
-        // inizializzo la radice dell'albero che coincide con lo stato sorteggiato dal computer o l'ultimo inserito dall'utente
+        //inizializzo la radice dell'albero che coincide con lo stato sorteggiato dal computer o l'ultimo inserito dall'utente
         Nodo radice = new Nodo(null, 0, borderGuessrBoard.getBoard().getLast());
         frontiera.add(radice);
 
         Set<Nodo> esplorati = new HashSet<>();
 
         while (!frontiera.isEmpty()) {
-            // Modifica qui: prelevo l'ultimo nodo dalla frontiera (LIFO per DFS)
-            Nodo nodo = frontiera.remove(frontiera.size() - 1);
+            System.out.println(frontiera.size());
+            Nodo nodo = frontiera.removeFirst();
             esplorati.add(nodo);
 
             List<String> nomiFigli = new ArrayList<>();
+            System.out.println("Sto per farlo su: " + nodo.getStato());
             List<String> nomiStatiConfinantiNodoCorrente = nodo.getStato().getNeighbors();
             List<String> saidCountriesAndAncestors = new ArrayList<>();
             saidCountriesAndAncestors.addAll(saidCountries);
@@ -68,7 +79,7 @@ public class DepthFirstSearch implements Algorithm {
                 n = n.getPadre();
             }
 
-            // seleziono quegli stati che confinano con il nodo corrente ma che non si trovano nel percorso verso la radice
+            //seleziono quegli stati che confinano con il nodo corrente ma che non si trovano nel percorso verso la radice
             for (String s : nomiStatiConfinantiNodoCorrente) {
                 boolean flag = false;
 
@@ -84,14 +95,14 @@ public class DepthFirstSearch implements Algorithm {
                 }
             }
 
-            // se il nodo corrente non ha figli e si trova su un cammino di lunghezza dispari
+            //se il nodo corrente non ha figli e si trova su un cammino di lunghezza dispari
             // restituisci lo stato che si trova nel nodo immediatamente successivo alla radice,
             // altrimenti continua con l'esplorazione
             if (nomiFigli.isEmpty()) {
                 if ((nodo.getCosto() + saidCountries.size()) % 2 == 1) {
                     n = nodo;
 
-                    System.out.println("Nodo papabile : " + n.getStato().getName());
+                    System.out.println("game.Nodo papabile : " + n.getStato().getName());
                     System.out.print("Percorso :");
                     while (n.getPadre() != radice) {
                         n = n.getPadre();
@@ -113,13 +124,12 @@ public class DepthFirstSearch implements Algorithm {
                     }
 
                     Nodo figlio = new Nodo(nodo, nodo.getCosto() + 1, country);
-                    // Modifica qui: aggiungo i figli in coda alla lista, così che vengano esplorati per ultimi
+                    System.out.println("Sto aggiungendo : " + figlio.getStato());
                     frontiera.add(figlio);
                 }
             }
         }
 
-        return null; // Restituisce null se non si trova alcun nodo valido
+        return null;
     }
-
 }

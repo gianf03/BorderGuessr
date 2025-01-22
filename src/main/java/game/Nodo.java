@@ -1,3 +1,5 @@
+package game;
+
 public class Nodo {
 
     private Nodo padre;

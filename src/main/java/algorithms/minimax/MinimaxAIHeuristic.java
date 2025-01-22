@@ -1,3 +1,7 @@
+package algorithms.minimax;
+
+import algorithms.minimax.MinimaxAI;
+import game.BorderGuessrBoard;
 import interfaces.Board;
 import interfaces.Move;
 
@@ -18,7 +22,7 @@ public class MinimaxAIHeuristic extends MinimaxAI {
         //codice in più
         BorderGuessrBoard bBoard = (BorderGuessrBoard) currentBoard;
 
-        // Caso base 1: Nodo terminale
+        // Caso base 1: game.Nodo terminale
         if (nextMoves.isEmpty()) {
             bestScore = currentBoard.utility();
             //codice in più

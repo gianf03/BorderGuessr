@@ -1,3 +1,5 @@
+package game;
+
 import interfaces.Algorithm;
 import interfaces.Move;
 
@@ -17,37 +19,47 @@ public class BorderGuessrGame {
         if (board.getBoard().contains(country) || !board.getBoard().getLast().getNeighbors().contains(country.getName())) {
             return false;
         }
+
         Move playerMove = new BorderGuessrMove(board, country);
         playerMove.execute();
         return true;
     }
 
-    private void handleAiMove() {
+    private String handleAiMove() {
         Move aiMove = ai.findBestMove(board);
         aiMove.execute();
         BorderGuessrMove bMove = (BorderGuessrMove) aiMove;
-        System.out.println(" " + bMove.getCurrentCountry().getName());
+        System.out.println(bMove.getCurrentCountry().getName());
+
+        return bMove.getCurrentCountry().getName();
     }
 
-    public void handleTurn(Country country){
+    public String handleTurn(Country country){
         board.setTurn("user");
         if (!handlePlayerMove(country)) {
             //dopo che sbaglio la partita dovrebbe finire
-            throw new RuntimeException("You can't say this country");
+            throw new CountryException("You can't say this country. \nComputer WON!");
         }
 
         if (board.isGameFinished()){
             System.out.println(board.getWinner() + " WON!");
-            return;
+            //return board.getWinner();
+
+            throw new CountryException("A stalemate has occurred,\n" + board.getWinner() + " WON!");
         }
 
         board.setTurn("computer");
         System.out.print("Computer's turn:");
-        handleAiMove();
+        String aiChoice = handleAiMove();
 
         if (board.isGameFinished()){
             System.out.println(board.getWinner() + " WON!");
+            //return board.getWinner();
+
+            throw new CountryException("A stalemate has occurred,\n" + board.getWinner() + " WON!", aiChoice);
         }
+
+        return aiChoice;
     }
 
     public boolean isFinished() {

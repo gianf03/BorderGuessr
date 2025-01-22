@@ -1,3 +1,5 @@
+package game;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -50,6 +52,6 @@ public class Country {
 
     @Override
     public String toString() {
-        return "Country [name=" + name + ", neighbors=" + neighbors + "]";
+        return "game.Country [name=" + name + ", neighbors=" + neighbors + "]";
     }
 }

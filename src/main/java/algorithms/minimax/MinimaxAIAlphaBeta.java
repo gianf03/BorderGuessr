@@ -1,45 +1,57 @@
+package algorithms.minimax;
+
+import algorithms.minimax.MinimaxAI;
+import game.BorderGuessrBoard;
 import interfaces.Board;
 import interfaces.Move;
 
 import java.util.List;
 
-public class MinimaxAIClassic extends MinimaxAI {
-
+public class MinimaxAIAlphaBeta extends MinimaxAI {
     @Override
     public Move findBestMove(Board currentBoard) {
-        return minimax(currentBoard, true).getMove();
+        return minimax(currentBoard, true, Integer.MIN_VALUE , Integer.MAX_VALUE).getMove();
     }
 
-    protected ScoredMove minimax(Board currentBoard, boolean isMaximizingPlayer) {
+
+    protected ScoredMove minimax(Board currentBoard, boolean isMaximizingPlayer, int alpha, int beta) {
         List<Move> nextMoves = currentBoard.generateNextMoves();
         int bestScore = isMaximizingPlayer ? Integer.MIN_VALUE : Integer.MAX_VALUE;
         Move bestMove = null;
 
+        //codice in più
+        BorderGuessrBoard bBoard = (BorderGuessrBoard) currentBoard;
+
         if(nextMoves.isEmpty()){
             bestScore = currentBoard.utility();
             //codice in più
-            BorderGuessrBoard bBoard = (BorderGuessrBoard) currentBoard;
             System.out.println("Utility associata a " + bBoard.getBoard().getLast().getName() + " e\' " + bestScore);
         } else {
             for (Move move: nextMoves){
                 move.execute();
                 if(isMaximizingPlayer){
-                    ScoredMove scoredMove = minimax(currentBoard, false);
+                    ScoredMove scoredMove = minimax(currentBoard, false, alpha, beta);
                     if(scoredMove.getScore() > bestScore){
                         bestScore = scoredMove.getScore();
                         bestMove = move;
-
-                        //aggiunte personali
-                        BorderGuessrMove bMove = (BorderGuessrMove) move;
-                        System.out.println("Best move : " + bMove.getCurrentCountry().getName() + " con valore " + bestScore);
+                        if(bestScore >= beta){
+                            move.undo();
+                            break;
+                        }
+                        alpha = Math.max(alpha,bestScore);
                     }
 
 
                 } else {
-                    ScoredMove scoredMove = minimax(currentBoard, true);
+                    ScoredMove scoredMove = minimax(currentBoard, true, alpha,beta );
                     if(scoredMove.getScore() < bestScore){
                         bestScore = scoredMove.getScore();
                         bestMove = move;
+                        if (bestScore <= alpha){
+                            move.undo();
+                            break;
+                        }
+                        beta = Math.min(beta,bestScore);
                     }
                 }
 

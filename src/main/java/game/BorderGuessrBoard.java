@@ -1,3 +1,5 @@
+package game;
+
 import interfaces.Board;
 import interfaces.Move;
 

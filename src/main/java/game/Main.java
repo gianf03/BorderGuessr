@@ -1,3 +1,11 @@
+package game;
+
+import algorithms.bestFirstSearch.GreedySearch;
+import algorithms.minimax.MinimaxAIAlphaBeta;
+import algorithms.minimax.MinimaxAIClassic;
+import algorithms.minimax.MinimaxAIHeuristic;
+import algorithms.uninformedSearch.BreadthFirstSearch;
+import algorithms.uninformedSearch.DepthFirstSearch;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import interfaces.Algorithm;
 
@@ -12,7 +20,7 @@ public class Main {
         ObjectMapper objectMapper = new ObjectMapper();
         WorldMap wm = null;
         try {
-            // Leggere il file JSON e convertirlo nella classe WorldMap
+            // Leggere il file JSON e convertirlo nella classe game.WorldMap
              wm = objectMapper.readValue(new File("data\\allCountriesFull.json"), WorldMap.class);
         } catch (IOException e) {
             e.printStackTrace();
@@ -72,7 +80,7 @@ public class Main {
             BorderGuessrGame game = new BorderGuessrGame(algorithm, wm.getAllCountries(), "user");
 
             //mio
-            //Country bosnia = new Country("Bosnia ed Erzegovina"); bosnia.setNeighbors(Arrays.asList("Croazia", "Serbia", "Montenegro"));
+            //game.Country bosnia = new game.Country("Bosnia ed Erzegovina"); bosnia.setNeighbors(Arrays.asList("Croazia", "Serbia", "Montenegro"));
             Country randomCountry =  wm.getAllCountries().get(new Random().nextInt(wm.getAllCountries().size()));
             game.getBoard().addCountry(randomCountry);
             //System.out.println(wm.getAllCountries().size());
@@ -95,8 +103,8 @@ public class Main {
                 }
                 country.setNeighbors(neighbors);
 
-                /*System.out.println("Main, Country: " + country.getName() + ", Neighbors: " + neighbors);
-                for (Country c : wm.getAllCountries()) {System.out.println(c);}*/
+                /*System.out.println("game.Main, game.Country: " + country.getName() + ", Neighbors: " + neighbors);
+                for (game.Country c : wm.getAllCountries()) {System.out.println(c);}*/
 
                 try {
                     game.handleTurn(country);

@@ -1,3 +1,9 @@
+package algorithms.bestFirstSearch;
+
+import game.BorderGuessrBoard;
+import game.BorderGuessrMove;
+import game.Country;
+import game.Nodo;
 import interfaces.Algorithm;
 import interfaces.Board;
 import interfaces.Move;
@@ -74,7 +80,7 @@ public class GreedySearch implements Algorithm {
                 System.out.println();
 
                 System.out.println("Stati non detti ma confinanti : " + unsaidNeighbors);
-                System.out.println("Nodo " + nodo.getStato().getName());
+                System.out.println("game.Nodo " + nodo.getStato().getName());
 
                 for (String s : unsaidNeighbors) {
                     Country country = null;

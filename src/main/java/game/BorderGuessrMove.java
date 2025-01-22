@@ -1,4 +1,5 @@
-import interfaces.Board;
+package game;
+
 import interfaces.Move;
 
 public class BorderGuessrMove implements Move {

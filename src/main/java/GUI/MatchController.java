@@ -1,11 +1,12 @@
 package GUI;
 
-import com.example.borderguessrguiprova.game.BorderGuessrGame;
-import com.example.borderguessrguiprova.game.Country;
-import com.example.borderguessrguiprova.game.CountryException;
-import com.example.borderguessrguiprova.game.WorldMap;
-import com.example.borderguessrguiprova.interfaces.Algorithm;
+
 import com.fasterxml.jackson.databind.ObjectMapper;
+import game.BorderGuessrGame;
+import game.Country;
+import game.CountryException;
+import game.WorldMap;
+import interfaces.Algorithm;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.geometry.Insets;
@@ -132,7 +133,7 @@ public class MatchController {
                     addSaidCountry(worldMap.getCountryByName(e.getCountry()));
                 }
 
-                FXMLLoader loader = new FXMLLoader(getClass().getResource("/com/example/borderguessrguiprova/end-of-the-match-view.fxml"));
+                FXMLLoader loader = new FXMLLoader(getClass().getResource("/borderguessrView/end-of-the-match-view.fxml"));
 
                 // Il problema principale è probabilmente un disallineamento tra il caricamento
                 // della scena e la configurazione del controller. Usando setControllerFactory,

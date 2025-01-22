@@ -1,13 +1,13 @@
 package GUI;
 
 
-import com.example.borderguessrguiprova.algorithms.bestFirstSearch.GreedySearch;
-import com.example.borderguessrguiprova.algorithms.minimax.MinimaxAIAlphaBeta;
-import com.example.borderguessrguiprova.algorithms.minimax.MinimaxAIClassic;
-import com.example.borderguessrguiprova.algorithms.minimax.MinimaxAIHeuristic;
-import com.example.borderguessrguiprova.algorithms.uninformedSearch.BreadthFirstSearch;
-import com.example.borderguessrguiprova.algorithms.uninformedSearch.DepthFirstSearch;
-import com.example.borderguessrguiprova.interfaces.Algorithm;
+import algorithms.bestFirstSearch.GreedySearch;
+import algorithms.minimax.MinimaxAIAlphaBeta;
+import algorithms.minimax.MinimaxAIClassic;
+import algorithms.minimax.MinimaxAIHeuristic;
+import algorithms.uninformedSearch.BreadthFirstSearch;
+import algorithms.uninformedSearch.DepthFirstSearch;
+import interfaces.Algorithm;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.fxml.FXML;
@@ -53,7 +53,7 @@ public class SelectAIController {
         }
 
         // Carica la scena e il controller
-        FXMLLoader loader = new FXMLLoader(getClass().getResource("/com/example/borderguessrguiprova/match-view.fxml"));
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("/borderguessrView/match-view.fxml"));
 
         // Il problema principale è probabilmente un disallineamento tra il caricamento
         // della scena e la configurazione del controller. Usando setControllerFactory,

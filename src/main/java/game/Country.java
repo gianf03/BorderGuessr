@@ -7,12 +7,19 @@ import java.util.List;
 public class Country {
     private String name;
     private List<String> neighbors;
+    private String image;
 
     public Country() {}
 
     public Country(String name) {
         this.name = name;
         neighbors = new ArrayList<String>();
+    }
+
+    public Country(String name, String image) {
+        this.name = name;
+        neighbors = new ArrayList<String>();
+        this.image = image;
     }
 
     public void addBorderCountry(String country) {
@@ -41,6 +48,10 @@ public class Country {
         neighbors.add(neighbor);
     }
 
+    public String getImage() {return image;}
+
+    public void setImage(String image) {this.image = image;}
+
     @Override
     public boolean equals(Object obj) {
         if (obj == null) return false;
@@ -52,6 +63,6 @@ public class Country {
 
     @Override
     public String toString() {
-        return "game.Country [name=" + name + ", neighbors=" + neighbors + "]";
+        return "Country [name=" + name + ", neighbors=" + neighbors + "]";
     }
 }

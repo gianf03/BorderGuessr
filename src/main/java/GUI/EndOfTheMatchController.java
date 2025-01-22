@@ -1,6 +1,5 @@
 package GUI;
 
-import com.example.borderguessrguiprova.GUI.BorderGuessrApplication;
 import javafx.application.Platform;
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;

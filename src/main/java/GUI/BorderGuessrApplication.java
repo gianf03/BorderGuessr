@@ -27,7 +27,7 @@ public class BorderGuessrApplication extends Application {
     }
 
     public static void switchScene(String fxmlFile) throws Exception {
-        FXMLLoader loader = new FXMLLoader(BorderGuessrApplication.class.getResource("/com/example/borderguessrguiprova/" + fxmlFile));
+        FXMLLoader loader = new FXMLLoader(BorderGuessrApplication.class.getResource("/borderguessrView/" + fxmlFile));
         Parent root = loader.load();
         primaryStage.setScene(new Scene(root));
     }

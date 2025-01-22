@@ -197,7 +197,7 @@ public class MatchController {
         String jsonFile;
 
         if (tipoConfini.equals("Terrestri"))
-            jsonFile = "allCountriesShort.json";
+            jsonFile = "allCountries.json";
         else
             jsonFile = "allCountriesFull.json";
 

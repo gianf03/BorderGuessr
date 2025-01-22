@@ -102,7 +102,7 @@
     },
     {
       "name" : "Bolivia",
-      "neighbors" : ["Argentina", "Brasile", "Cile", "Paraguay", "Peru"],
+      "neighbors" : ["Argentina", "Brasile", "Cile", "Paraguay", "Perù"],
       "image" : "/img/bolivia.png"
     },
     {
@@ -117,7 +117,7 @@
     },
     {
       "name" : "Brasile",
-      "neighbors" : ["Argentina", "Bolivia", "Colombia", "Francia", "Guyana", "Paraguay", "Peru", "Suriname", "Uruguay", "Venezuela"],
+      "neighbors" : ["Argentina", "Bolivia", "Colombia", "Francia", "Guyana", "Paraguay", "Perù", "Suriname", "Uruguay", "Venezuela"],
       "image" : "/img/brasile.png"
     },
     {
@@ -172,7 +172,7 @@
     },
     {
       "name" : "Cile",
-      "neighbors" : ["Argentina", "Bolivia", "Peru"],
+      "neighbors" : ["Argentina", "Bolivia", "Perù"],
       "image" : "/img/cile.png"
     },
     {
@@ -182,7 +182,7 @@
     },
     {
       "name" : "Colombia",
-      "neighbors" : ["Brasile", "Costa Rica", "Repubblica Dominicana", "Ecuador", "Haiti", "Giamaica", "Nicaragua", "Panama", "Peru", "Venezuela"],
+      "neighbors" : ["Brasile", "Costa Rica", "Repubblica Dominicana", "Ecuador", "Haiti", "Giamaica", "Nicaragua", "Panama", "Perù", "Venezuela"],
       "image" : "/img/colombia.png"
     },
     {
@@ -257,7 +257,7 @@
     },
     {
       "name" : "Ecuador",
-      "neighbors" : ["Colombia", "Costa Rica", "Peru"],
+      "neighbors" : ["Colombia", "Costa Rica", "Perù"],
       "image" : "/img/ecuador.png"
     },
     {
@@ -706,7 +706,7 @@
       "image" : "/img/paraguay.png"
     },
     {
-      "name" : "Peru",
+      "name" : "Perù",
       "neighbors" : ["Bolivia", "Brasile", "Cile", "Colombia", "Ecuador"],
       "image" : "/img/peru.png"
     },

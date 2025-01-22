@@ -2,171 +2,213 @@
   "allCountries": [
     {
       "name": "Austria",
-      "neighbors": ["Italia", "Slovenia", "Ungheria", "Slovacchia", "Cechia", "Germania", "Liechtenstein", "Svizzera"]
+      "neighbors": ["Italia", "Slovenia", "Ungheria", "Slovacchia", "Cechia", "Germania", "Liechtenstein", "Svizzera"],
+      "image": "/img/austria.png"
     },
     {
       "name": "Belgio",
-      "neighbors": ["Paesi Bassi", "Germania", "Lussemburgo", "Francia"]
+      "neighbors": ["Paesi Bassi", "Germania", "Lussemburgo", "Francia"],
+      "image": "/img/belgio.png"
     },
     {
       "name": "Bulgaria",
-      "neighbors": ["Grecia", "Romania", "Macedonia del Nord", "Serbia", "Turchia"]
+      "neighbors": ["Grecia", "Romania", "Macedonia del Nord", "Serbia", "Turchia"],
+      "image": "/img/bulgaria.png"
     },
     {
       "name": "Croazia",
-      "neighbors": ["Slovenia", "Ungheria", "Bosnia ed Erzegovina", "Serbia"]
+      "neighbors": ["Slovenia", "Ungheria", "Bosnia ed Erzegovina", "Serbia"],
+      "image": "/img/croazia.png"
     },
     {
       "name": "Danimarca",
-      "neighbors": ["Germania"]
+      "neighbors": ["Germania"],
+      "image": "/img/danimarca.png"
     },
     {
       "name": "Estonia",
-      "neighbors": ["Lettonia", "Russia"]
+      "neighbors": ["Lettonia", "Russia"],
+      "image": "/img/estonia.png"
     },
     {
       "name": "Finlandia",
-      "neighbors": ["Svezia", "Norvegia", "Russia"]
+      "neighbors": ["Svezia", "Norvegia", "Russia"],
+      "image": "/img/finlandia.png"
     },
     {
       "name": "Francia",
-      "neighbors": ["Spagna", "Germania", "Italia", "Lussemburgo", "Belgio", "Andorra", "Monaco", "Svizzera"]
+      "neighbors": ["Spagna", "Germania", "Italia", "Lussemburgo", "Belgio", "Andorra", "Monaco", "Svizzera"],
+      "image": "/img/francia.png"
     },
     {
       "name": "Germania",
-      "neighbors": ["Francia", "Paesi Bassi", "Lussemburgo", "Belgio","Austria", "Cechia", "Danimarca","Polonia", "Svizzera"]
+      "neighbors": ["Francia", "Paesi Bassi", "Lussemburgo", "Belgio","Austria", "Cechia", "Danimarca","Polonia", "Svizzera"],
+      "image": "/img/germania.png"
     },
     {
       "name": "Grecia",
-      "neighbors": ["Bulgaria", "Albania", "Macedonia del Nord", "Turchia"]
+      "neighbors": ["Bulgaria", "Albania", "Macedonia del Nord", "Turchia"],
+      "image": "/img/grecia.png"
     },
     {
       "name": "Italia",
-      "neighbors": ["Francia", "Austria", "Slovenia", "Città del Vaticano", "Svizzera"]
+      "neighbors": ["Francia", "Austria", "Slovenia", "Città del Vaticano", "Svizzera"],
+      "image": "/img/italia.png"
     },
     {
       "name": "Lettonia",
-      "neighbors": ["Lituania", "Estonia", "Bielorussia", "Russia"]
+      "neighbors": ["Lituania", "Estonia", "Bielorussia", "Russia"],
+      "image": "/img/lettonia.png"
     },
     {
       "name": "Lituania",
-      "neighbors": ["Lettonia", "Polonia", "Bielorussia", "Russia"]
+      "neighbors": ["Lettonia", "Polonia", "Bielorussia", "Russia"],
+      "image": "/img/lituania.png"
     },
     {
       "name": "Lussemburgo",
-      "neighbors": ["Francia", "Germania", "Belgio"]
+      "neighbors": ["Francia", "Germania", "Belgio"],
+      "image": "/img/lussemburgo.png"
     },
     {
       "name": "Paesi Bassi",
-      "neighbors": ["Belgio", "Germania"]
+      "neighbors": ["Belgio", "Germania"],
+      "image": "/img/paesiBassi.png"
     },
     {
       "name": "Polonia",
-      "neighbors": ["Germania", "Cechia", "Slovacchia", "Lituania", "Bielorussia", "Russia"]
+      "neighbors": ["Germania", "Cechia", "Slovacchia", "Lituania", "Bielorussia", "Russia"],
+      "image": "/img/polonia.png"
     },
     {
       "name": "Portogallo",
-      "neighbors": ["Spagna"]
+      "neighbors": ["Spagna"],
+      "image": "/img/portogallo.png"
     },
     {
       "name": "Cechia",
-      "neighbors": ["Germania", "Austria", "Polonia", "Slovacchia"]
+      "neighbors": ["Germania", "Austria", "Polonia", "Slovacchia"],
+      "image": "/img/cechia.png"
     },
     {
       "name": "Romania",
-      "neighbors": ["Ungheria", "Bulgaria", "Moldavia", "Serbia"]
+      "neighbors": ["Ungheria", "Bulgaria", "Moldavia", "Serbia"],
+      "image": "/img/romania.png"
     },
     {
       "name": "Slovacchia",
-      "neighbors": ["Austria", "Cechia", "Polonia", "Ungheria"]
+      "neighbors": ["Austria", "Cechia", "Polonia", "Ungheria"],
+      "image": "/img/slovacchia.png"
     },
     {
       "name": "Slovenia",
-      "neighbors": ["Italia", "Croazia", "Ungheria", "Austria"]
+      "neighbors": ["Italia", "Croazia", "Ungheria", "Austria"],
+      "image": "/img/slovenia.png"
     },
     {
       "name": "Spagna",
-      "neighbors": ["Portogallo", "Francia", "Andorra", "Regno Unito"]
+      "neighbors": ["Portogallo", "Francia", "Andorra", "Regno Unito"],
+      "image": "/img/spagna.png"
     },
     {
       "name": "Svezia",
-      "neighbors": ["Finlandia", "Norvegia"]
+      "neighbors": ["Finlandia", "Norvegia"],
+      "image": "/img/svezia.png"
     },
     {
       "name": "Ungheria",
-      "neighbors": ["Slovacchia", "Romania", "Croazia", "Austria", "Slovenia", "Serbia"]
+      "neighbors": ["Slovacchia", "Romania", "Croazia", "Austria", "Slovenia", "Serbia"],
+      "image": "/img/ungheria.png"
     },
     {
       "name": "Albania",
-      "neighbors": ["Grecia", "Macedonia del Nord"]
+      "neighbors": ["Grecia", "Macedonia del Nord"],
+      "image": "/img/albania.png"
     },
     {
       "name": "Andorra",
-      "neighbors": ["Francia", "Spagna"]
+      "neighbors": ["Francia", "Spagna"],
+      "image": "/img/andorra.png"
     },
     {
       "name": "Bielorussia",
-      "neighbors": ["Polonia", "Lituania", "Lettonia", "Russia"]
+      "neighbors": ["Polonia", "Lituania", "Lettonia", "Russia"],
+      "image": "/img/bielorussia.png"
     },
     {
       "name": "Bosnia ed Erzegovina",
-      "neighbors": ["Croazia", "Serbia"]
+      "neighbors": ["Croazia", "Serbia"],
+      "image": "/img/bosniaEdErzegovina.png"
     },
     {
       "name": "Città del Vaticano",
-      "neighbors": ["Italia"]
+      "neighbors": ["Italia"],
+      "image": "/img/vaticano.png"
     },
     {
       "name": "Liechtenstein",
-      "neighbors": ["Austria", "Svizzera"]
+      "neighbors": ["Austria", "Svizzera"],
+      "image": "/img/liechtenstein.png"
     },
     {
       "name": "Macedonia del Nord",
-      "neighbors": ["Albania", "Grecia", "Bulgaria", "Serbia"]
+      "neighbors": ["Albania", "Grecia", "Bulgaria", "Serbia"],
+      "image": "/img/macedoniaDelNord.png"
     },
     {
       "name": "Moldavia",
-      "neighbors": ["Romania"]
+      "neighbors": ["Romania"],
+      "image": "/img/moldavia.png"
     },
     {
       "name": "Monaco",
-      "neighbors": ["Francia"]
+      "neighbors": ["Francia"],
+      "image": "/img/monaco.png"
     },
     {
       "name": "Norvegia",
-      "neighbors": ["Svezia", "Finlandia", "Russia"]
+      "neighbors": ["Svezia", "Finlandia", "Russia"],
+      "image": "/img/norvegia.png"
     },
     {
       "name": "Regno Unito",
-      "neighbors": ["Spagna"]
+      "neighbors": ["Spagna"],
+      "image": "/img/regnoUnito.png"
     },
     {
       "name": "Russia",
-      "neighbors": ["Norvegia", "Finlandia", "Estonia", "Lettonia", "Lituania", "Polonia", "Bielorussia", "Azerbaigian", "Georgia"]
+      "neighbors": ["Norvegia", "Finlandia", "Estonia", "Lettonia", "Lituania", "Polonia", "Bielorussia", "Azerbaigian", "Georgia"],
+      "image": "/img/russia.png"
     },
     {
       "name": "Armenia",
-      "neighbors": ["Azerbaigian", "Georgia", "Turchia"]
+      "neighbors": ["Azerbaigian", "Georgia", "Turchia"],
+      "image": "/img/armenia.png"
     },
     {
       "name": "Azerbaigian",
-      "neighbors": ["Russia", "Armenia", "Georgia", "Turchia"]
+      "neighbors": ["Russia", "Armenia", "Georgia", "Turchia"],
+      "image": "/img/azerbaigian.png"
     },
     {
       "name": "Georgia",
-      "neighbors": ["Russia", "Armenia", "Azerbaigian", "Turchia"]
+      "neighbors": ["Russia", "Armenia", "Azerbaigian", "Turchia"],
+      "image": "/img/georgia.png"
     },
     {
       "name": "Serbia",
-      "neighbors": ["Ungheria", "Romania", "Bulgaria", "Macedonia del Nord", "Bosnia ed Erzegovina", "Croazia"]
+      "neighbors": ["Ungheria", "Romania", "Bulgaria", "Macedonia del Nord", "Bosnia ed Erzegovina", "Croazia"],
+      "image": "/img/serbia.png"
     },
     {
       "name": "Svizzera",
-      "neighbors": ["Francia", "Germania", "Italia", "Austria", "Liechtenstein"]
+      "neighbors": ["Francia", "Germania", "Italia", "Austria", "Liechtenstein"],
+      "image": "/img/svizzera.png"
     },
     {
       "name": "Turchia",
-      "neighbors": ["Grecia", "Bulgaria", "Georgia", "Armenia", "Azerbaigian"]
+      "neighbors": ["Grecia", "Bulgaria", "Georgia", "Armenia", "Azerbaigian"],
+      "image": "/img/turchia.png"
     }
   ]
 }

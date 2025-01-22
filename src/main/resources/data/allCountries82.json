@@ -2,331 +2,413 @@
   "allCountries": [
     {
       "name": "Austria",
-      "neighbors": ["Italia", "Slovenia", "Ungheria", "Slovacchia", "Cechia", "Germania", "Liechtenstein", "Svizzera"]
+      "neighbors": ["Italia", "Slovenia", "Ungheria", "Slovacchia", "Cechia", "Germania", "Liechtenstein", "Svizzera"],
+      "image": "/img/austria.png"
     },
     {
       "name": "Belgio",
-      "neighbors": ["Paesi Bassi", "Germania", "Lussemburgo", "Francia"]
+      "neighbors": ["Paesi Bassi", "Germania", "Lussemburgo", "Francia"],
+      "image": "/img/belgio.png"
     },
     {
       "name": "Bulgaria",
-      "neighbors": ["Grecia", "Romania", "Macedonia del Nord", "Serbia", "Turchia"]
+      "neighbors": ["Grecia", "Romania", "Macedonia del Nord", "Serbia", "Turchia"],
+      "image": "/img/bulgaria.png"
     },
     {
       "name": "Croazia",
-      "neighbors": ["Slovenia", "Ungheria", "Bosnia ed Erzegovina", "Serbia", "Montenegro"]
+      "neighbors": ["Slovenia", "Ungheria", "Bosnia ed Erzegovina", "Serbia", "Montenegro"],
+      "image": "/img/croazia.png"
     },
     {
       "name": "Danimarca",
-      "neighbors": ["Germania", "Canada"]
+      "neighbors": ["Germania", "Canada"],
+      "image": "/img/danimarca.png"
     },
     {
       "name": "Estonia",
-      "neighbors": ["Lettonia", "Russia"]
+      "neighbors": ["Lettonia", "Russia"],
+      "image": "/img/estonia.png"
     },
     {
       "name": "Finlandia",
-      "neighbors": ["Svezia", "Norvegia", "Russia"]
+      "neighbors": ["Svezia", "Norvegia", "Russia"],
+      "image": "/img/finlandia.png"
     },
     {
       "name": "Francia",
-      "neighbors": ["Spagna", "Germania", "Italia", "Lussemburgo", "Belgio", "Andorra", "Monaco", "Svizzera", "Brasile"]
+      "neighbors": ["Spagna", "Germania", "Italia", "Lussemburgo", "Belgio", "Andorra", "Monaco", "Svizzera", "Brasile"],
+      "image": "/img/francia.png"
     },
     {
       "name": "Germania",
-      "neighbors": ["Francia", "Paesi Bassi", "Lussemburgo", "Belgio","Austria", "Cechia", "Danimarca","Polonia", "Svizzera"]
+      "neighbors": ["Francia", "Paesi Bassi", "Lussemburgo", "Belgio","Austria", "Cechia", "Danimarca","Polonia", "Svizzera"],
+      "image": "/img/germania.png"
     },
     {
       "name": "Grecia",
-      "neighbors": ["Bulgaria", "Albania", "Macedonia del Nord", "Turchia"]
+      "neighbors": ["Bulgaria", "Albania", "Macedonia del Nord", "Turchia"],
+      "image": "/img/grecia.png"
     },
     {
       "name": "Italia",
-      "neighbors": ["Francia", "Austria", "Slovenia", "Città del Vaticano", "Svizzera"]
+      "neighbors": ["Francia", "Austria", "Slovenia", "Città del Vaticano", "Svizzera"],
+      "image": "/img/italia.png"
     },
     {
       "name": "Lettonia",
-      "neighbors": ["Lituania", "Estonia", "Bielorussia", "Russia"]
+      "neighbors": ["Lituania", "Estonia", "Bielorussia", "Russia"],
+      "image": "/img/lettonia.png"
     },
     {
       "name": "Lituania",
-      "neighbors": ["Lettonia", "Polonia", "Bielorussia", "Russia"]
+      "neighbors": ["Lettonia", "Polonia", "Bielorussia", "Russia"],
+      "image": "/img/lituania.png"
     },
     {
       "name": "Lussemburgo",
-      "neighbors": ["Francia", "Germania", "Belgio"]
+      "neighbors": ["Francia", "Germania", "Belgio"],
+      "image": "/img/lussemburgo.png"
     },
     {
       "name": "Paesi Bassi",
-      "neighbors": ["Belgio", "Germania"]
+      "neighbors": ["Belgio", "Germania"],
+      "image": "/img/paesiBassi.png"
     },
     {
       "name": "Polonia",
-      "neighbors": ["Germania", "Cechia", "Slovacchia", "Lituania", "Bielorussia", "Russia", "Ucraina"]
+      "neighbors": ["Germania", "Cechia", "Slovacchia", "Lituania", "Bielorussia", "Russia", "Ucraina"],
+      "image": "/img/polonia.png"
     },
     {
       "name": "Portogallo",
-      "neighbors": ["Spagna"]
+      "neighbors": ["Spagna"],
+      "image": "/img/portogallo.png"
     },
     {
       "name": "Cechia",
-      "neighbors": ["Germania", "Austria", "Polonia", "Slovacchia"]
+      "neighbors": ["Germania", "Austria", "Polonia", "Slovacchia"],
+      "image": "/img/cechia.png"
     },
     {
       "name": "Romania",
-      "neighbors": ["Ungheria", "Bulgaria", "Moldavia", "Serbia", "Ucraina"]
+      "neighbors": ["Ungheria", "Bulgaria", "Moldavia", "Serbia", "Ucraina"],
+      "image": "/img/romania.png"
     },
     {
       "name": "Slovacchia",
-      "neighbors": ["Austria", "Cechia", "Polonia", "Ungheria", "Ucraina"]
+      "neighbors": ["Austria", "Cechia", "Polonia", "Ungheria", "Ucraina"],
+      "image": "/img/slovacchia.png"
     },
     {
       "name": "Slovenia",
-      "neighbors": ["Italia", "Croazia", "Ungheria", "Austria"]
+      "neighbors": ["Italia", "Croazia", "Ungheria", "Austria"],
+      "image": "/img/slovenia.png"
     },
     {
       "name": "Spagna",
-      "neighbors": ["Portogallo", "Francia", "Andorra", "Regno Unito"]
+      "neighbors": ["Portogallo", "Francia", "Andorra", "Regno Unito"],
+      "image": "/img/spagna.png"
     },
     {
       "name": "Svezia",
-      "neighbors": ["Finlandia", "Norvegia"]
+      "neighbors": ["Finlandia", "Norvegia"],
+      "image": "/img/svezia.png"
     },
     {
       "name": "Ungheria",
-      "neighbors": ["Slovacchia", "Romania", "Croazia", "Austria", "Slovenia", "Serbia", "Ucraina"]
+      "neighbors": ["Slovacchia", "Romania", "Croazia", "Austria", "Slovenia", "Serbia", "Ucraina"],
+      "image": "/img/ungheria.png"
     },
     {
       "name": "Albania",
-      "neighbors": ["Grecia", "Macedonia del Nord", "Montenegro", "Kosovo"]
+      "neighbors": ["Grecia", "Macedonia del Nord", "Montenegro", "Kosovo"],
+      "image": "/img/albania.png"
     },
     {
       "name": "Andorra",
-      "neighbors": ["Francia", "Spagna"]
+      "neighbors": ["Francia", "Spagna"],
+      "image": "/img/andorra.png"
     },
     {
       "name": "Bielorussia",
-      "neighbors": ["Polonia", "Lituania", "Lettonia", "Russia", "Ucraina"]
+      "neighbors": ["Polonia", "Lituania", "Lettonia", "Russia", "Ucraina"],
+      "image": "/img/bielorussia.png"
     },
     {
       "name": "Bosnia ed Erzegovina",
-      "neighbors": ["Croazia", "Serbia", "Montenegro"]
+      "neighbors": ["Croazia", "Serbia", "Montenegro"],
+      "image": "/img/bosniaEdErzegovina.png"
     },
     {
       "name": "Città del Vaticano",
-      "neighbors": ["Italia"]
+      "neighbors": ["Italia"],
+      "image": "/img/vaticano.png"
     },
     {
       "name": "Liechtenstein",
-      "neighbors": ["Austria", "Svizzera"]
+      "neighbors": ["Austria", "Svizzera"],
+      "image": "/img/liechtenstein.png"
     },
     {
       "name": "Macedonia del Nord",
-      "neighbors": ["Albania", "Grecia", "Bulgaria", "Serbia", "Kosovo"]
+      "neighbors": ["Albania", "Grecia", "Bulgaria", "Serbia", "Kosovo"],
+      "image": "/img/macedoniaDelNord.png"
     },
     {
       "name": "Moldavia",
-      "neighbors": ["Romania", "Ucraina"]
+      "neighbors": ["Romania", "Ucraina"],
+      "image": "/img/moldavia.png"
     },
     {
       "name": "Monaco",
-      "neighbors": ["Francia"]
+      "neighbors": ["Francia"],
+      "image": "/img/monaco.png"
     },
     {
       "name": "Norvegia",
-      "neighbors": ["Svezia", "Finlandia", "Russia"]
+      "neighbors": ["Svezia", "Finlandia", "Russia"],
+      "image": "/img/norvegia.png"
     },
     {
       "name": "Regno Unito",
-      "neighbors": ["Spagna"]
+      "neighbors": ["Spagna"],
+      "image": "/img/regnoUnito.png"
     },
     {
       "name": "Russia",
-      "neighbors": ["Norvegia", "Finlandia", "Estonia", "Lettonia", "Lituania", "Polonia", "Bielorussia", "Azerbaigian", "Georgia", "Ucraina", "Kazakistan", "Cina", "Corea del Nord"]
+      "neighbors": ["Norvegia", "Finlandia", "Estonia", "Lettonia", "Lituania", "Polonia", "Bielorussia", "Azerbaigian", "Georgia", "Ucraina", "Kazakistan", "Cina", "Corea del Nord"],
+      "image": "/img/russia.png"
     },
     {
       "name": "Armenia",
-      "neighbors": ["Azerbaigian", "Georgia", "Turchia", "Iran"]
+      "neighbors": ["Azerbaigian", "Georgia", "Turchia", "Iran"],
+      "image": "/img/armenia.png"
     },
     {
       "name": "Azerbaigian",
-      "neighbors": ["Russia", "Armenia", "Georgia", "Turchia", "Iran"]
+      "neighbors": ["Russia", "Armenia", "Georgia", "Turchia", "Iran"],
+      "image": "/img/azerbaigian.png"
     },
     {
       "name": "Georgia",
-      "neighbors": ["Russia", "Armenia", "Azerbaigian", "Turchia"]
+      "neighbors": ["Russia", "Armenia", "Azerbaigian", "Turchia"],
+      "image": "/img/georgia.png"
     },
     {
       "name": "Serbia",
-      "neighbors": ["Ungheria", "Romania", "Bulgaria", "Macedonia del Nord", "Bosnia ed Erzegovina", "Croazia", "Montenegro", "Kosovo"]
+      "neighbors": ["Ungheria", "Romania", "Bulgaria", "Macedonia del Nord", "Bosnia ed Erzegovina", "Croazia", "Montenegro", "Kosovo"],
+      "image": "/img/serbia.png"
     },
     {
       "name": "Svizzera",
-      "neighbors": ["Francia", "Germania", "Italia", "Austria", "Liechtenstein"]
+      "neighbors": ["Francia", "Germania", "Italia", "Austria", "Liechtenstein"],
+      "image": "/img/svizzera.png"
     },
     {
       "name": "Turchia",
-      "neighbors": ["Grecia", "Bulgaria", "Georgia", "Armenia", "Azerbaigian", "Iran", "Iraq", "Siria"]
+      "neighbors": ["Grecia", "Bulgaria", "Georgia", "Armenia", "Azerbaigian", "Iran", "Iraq", "Siria"],
+      "image": "/img/turchia.png"
     },
     {
       "name": "Ucraina",
-      "neighbors": ["Russia", "Moldavia", "Ungheria", "Bielorussia", "Polonia", "Slovacchia", "Romania"]
+      "neighbors": ["Russia", "Moldavia", "Ungheria", "Bielorussia", "Polonia", "Slovacchia", "Romania"],
+      "image": "/img/ucraina.png"
     },
     {
       "name": "Montenegro",
-      "neighbors": ["Serbia", "Albania", "Croazia", "Bosnia ed Erzegovina", "Kosovo"]
+      "neighbors": ["Serbia", "Albania", "Croazia", "Bosnia ed Erzegovina", "Kosovo"],
+      "image": "/img/montenegro.png"
     },
     {
       "name": "Kosovo",
-      "neighbors": ["Serbia", "Montenegro", "Macedonia del Nord", "Albania"]
+      "neighbors": ["Serbia", "Montenegro", "Macedonia del Nord", "Albania"],
+      "image": "/img/kosovo.png"
     },
     {
       "name": "Kazakistan",
-      "neighbors": ["Russia", "Cina"]
+      "neighbors": ["Russia", "Cina"],
+      "image": "/img/kazakistan.png"
     },
     {
       "name": "Iran",
-      "neighbors": ["Armenia", "Azerbaigian", "Turchia", "Iraq", "Afghanistan"]
+      "neighbors": ["Armenia", "Azerbaigian", "Turchia", "Iraq", "Afghanistan"],
+      "image": "/img/iran.png"
     },
     {
       "name": "Iraq",
-      "neighbors": ["Iran", "Turchia", "Siria", "Giordania", "Arabia Saudita"]
+      "neighbors": ["Iran", "Turchia", "Siria", "Giordania", "Arabia Saudita"],
+      "image": "/img/iraq.png"
     },
     {
       "name": "Siria",
-      "neighbors": ["Turchia", "Iraq", "Giordania", "Libano", "Israele"]
+      "neighbors": ["Turchia", "Iraq", "Giordania", "Libano", "Israele"],
+      "image": "/img/siria.png"
     },
     {
       "name": "Giordania",
-      "neighbors": ["Siria", "Iraq", "Arabia Saudita"]
+      "neighbors": ["Siria", "Iraq", "Arabia Saudita"],
+      "image": "/img/giordania.png"
     },
     {
       "name": "Libano",
-      "neighbors": ["Siria", "Israele"]
+      "neighbors": ["Siria", "Israele"],
+      "image": "/img/libano.png"
     },
     {
       "name": "Israele",
-      "neighbors": ["Libano", "Siria"]
+      "neighbors": ["Libano", "Siria"],
+      "image": "/img/israele.png"
     },
     {
       "name": "Afghanistan",
-      "neighbors": ["Iran", "Cina"]
+      "neighbors": ["Iran", "Cina"],
+      "image": "/img/afghanistan.png"
     },
     {
       "name": "Arabia Saudita",
-      "neighbors": ["Iraq", "Giordania", "Emirati Arabi Uniti"]
+      "neighbors": ["Iraq", "Giordania", "Emirati Arabi Uniti"],
+      "image": "/img/arabiaSaudita.png"
     },
     {
       "name": "Cina",
-      "neighbors": ["Afghanistan", "Kazakistan", "Russia", "Birmania", "Bhutan", "Hong Kong", "Macao", "Corea del Nord", "India"]
+      "neighbors": ["Afghanistan", "Kazakistan", "Russia", "Birmania", "Bhutan", "Hong Kong", "Macao", "Corea del Nord", "India"],
+      "image": "/img/cina.png"
     },
     {
       "name": "Birmania",
-      "neighbors": ["Cina", "India"]
+      "neighbors": ["Cina", "India"],
+      "image": "/img/birmania.png"
     },
     {
       "name": "Bangladesh",
-      "neighbors": ["Birmania", "India"]
+      "neighbors": ["Birmania", "India"],
+      "image": "/img/bangladesh.png"
     },
     {
       "name": "Bhutan",
-      "neighbors": ["Cina", "India"]
+      "neighbors": ["Cina", "India"],
+      "image": "/img/bhutan.png"
     },
     {
       "name": "Hong Kong",
-      "neighbors": ["Cina"]
+      "neighbors": ["Cina"],
+      "image": "/img/hongKong.png"
     },
     {
       "name": "Macao",
-      "neighbors": ["Cina"]
+      "neighbors": ["Cina"],
+      "image": "/img/macao.png"
     },
     {
       "name": "Corea del Nord",
-      "neighbors": ["Cina", "Russia", "Corea del Sud"]
+      "neighbors": ["Cina", "Russia", "Corea del Sud"],
+      "image": "/img/coreaDelNord.png"
     },
     {
       "name": "Corea del Sud",
-      "neighbors": ["Corea del Nord"]
+      "neighbors": ["Corea del Nord"],
+      "image": "/img/coreaDelSud.png"
     },
     {
       "name": "Emirati Arabi Uniti",
-      "neighbors": ["Arabia Saudita"]
+      "neighbors": ["Arabia Saudita"],
+      "image": "/img/emiratiArabiUniti.png"
     },
     {
       "name": "India",
-      "neighbors": ["Cina", "Bhutan", "Bangladesh", "Birmania"]
+      "neighbors": ["Cina", "Bhutan", "Bangladesh", "Birmania"],
+      "image": "/img/india.png"
     },
     {
       "name": "Canada",
-      "neighbors": ["Stati Uniti", "Danimarca"]
+      "neighbors": ["Stati Uniti", "Danimarca"],
+      "image": "/img/canada.png"
     },
     {
       "name": "Stati Uniti",
-      "neighbors": ["Canada", "Messico"]
+      "neighbors": ["Canada", "Messico"],
+      "image": "/img/statiUniti.png"
     },
     {
       "name": "Messico",
-      "neighbors": ["Stati Uniti", "Belize", "Guatemala"]
+      "neighbors": ["Stati Uniti", "Belize", "Guatemala"],
+      "image": "/img/messico.png"
     },
     {
       "name": "Belize",
-      "neighbors": ["Messico", "Guatemala"]
+      "neighbors": ["Messico", "Guatemala"],
+      "image": "/img/belize.png"
     },
     {
       "name": "Guatemala",
-      "neighbors": ["Messico", "Belize", "El Salvador", "Honduras"]
+      "neighbors": ["Messico", "Belize", "El Salvador", "Honduras"],
+      "image": "/img/guatemala.png"
     },
     {
       "name": "El Salvador",
-      "neighbors": ["Guatemala", "Honduras"]
+      "neighbors": ["Guatemala", "Honduras"],
+      "image": "/img/elSalvador.png"
     },
     {
       "name": "Honduras",
-      "neighbors": ["El Salvador", "Guatemala", "Nicaragua"]
+      "neighbors": ["El Salvador", "Guatemala", "Nicaragua"],
+      "image": "/img/honduras.png"
     },
     {
       "name": "Nicaragua",
-      "neighbors": ["Honduras", "Costa Rica"]
+      "neighbors": ["Honduras", "Costa Rica"],
+      "image": "/img/nicaragua.png"
     },
     {
       "name": "Costa Rica",
-      "neighbors": ["Nicaragua", "Panama"]
+      "neighbors": ["Nicaragua", "Panama"],
+      "image": "/img/costaRica.png"
     },
     {
       "name": "Panama",
-      "neighbors": ["Costa Rica", "Colombia"]
+      "neighbors": ["Costa Rica", "Colombia"],
+      "image": "/img/panama.png"
     },
     {
       "name": "Colombia",
-      "neighbors": ["Brasile", "Ecuador", "Panama"]
+      "neighbors": ["Brasile", "Ecuador", "Panama"],
+      "image": "/img/colombia.png"
     },
     {
       "name": "Ecuador",
-      "neighbors": ["Colombia"]
+      "neighbors": ["Colombia"],
+      "image": "/img/ecuador.png"
     },
     {
       "name": "Argentina",
-      "neighbors": ["Bolivia", "Brasile", "Cile", "Paraguay"]
+      "neighbors": ["Bolivia", "Brasile", "Cile", "Paraguay"],
+      "image": "/img/argentina.png"
     },
     {
       "name": "Bolivia",
-      "neighbors": ["Brasile", "Argentina", "Paraguay", "Cile"]
+      "neighbors": ["Brasile", "Argentina", "Paraguay", "Cile"],
+      "image": "/img/bolivia.png"
     },
     {
       "name": "Brasile",
-      "neighbors": ["Colombia", "Guyana", "Argentina", "Paraguay", "Bolivia", "Francia"]
+      "neighbors": ["Colombia", "Guyana", "Argentina", "Paraguay", "Bolivia", "Francia"],
+      "image": "/img/brasile.png"
     },
     {
       "name": "Cile",
-      "neighbors": ["Bolivia", "Argentina"]
+      "neighbors": ["Bolivia", "Argentina"],
+      "image": "/img/cile.png"
     },
     {
       "name": "Guyana",
-      "neighbors": ["Brasile"]
+      "neighbors": ["Brasile"],
+      "image": "/img/guyana.png"
     },
     {
       "name": "Paraguay",
-      "neighbors": ["Bolivia", "Brasile", "Argentina"]
+      "neighbors": ["Bolivia", "Brasile", "Argentina"],
+      "image": "/img/paraguay.png"
     }
   ]
 }

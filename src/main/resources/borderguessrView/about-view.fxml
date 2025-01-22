@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox alignment="CENTER" prefHeight="220.0" prefWidth="450.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TextArea editable="false" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="200.0" prefWidth="430.0" text="BorderGuessr nasce dall'idea di 3 ragazzi appassionati di geografia. &#10;Lo scopo è incentivare l'apprendimento dei confini mondiali tramite un approccio ludico.&#10;Con la sua grafica minimale si propone di diventare uno strumento di facile utilizzo anche per i meno esperti.&#10;Il gioco consiste essenzialmente nello sfidare il computer a colpi di confini fino ad arrivare ad uno stallo.&#10;&#10;Riuscirai a battere l'AI?&#10;&#10;Autori: Sebastiano Caliendo, Niccolò Pio Tancredi, Gianfranco Vitiello" wrapText="true">
+         <font>
+            <Font name="SansSerif Bold" size="12.0" />
+         </font></TextArea>
+   </children>
+</VBox>

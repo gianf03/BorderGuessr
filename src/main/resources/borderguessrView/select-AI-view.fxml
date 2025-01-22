@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox alignment="CENTER" prefHeight="650.0" prefWidth="650.0" spacing="20.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.borderguessrguiprova.GUI.SelectAIController">
+
+    <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="40.0" prefWidth="300.0" text="Seleziona l'IA che vuoi sfidare" style="-fx-font-weight: bold italic;">
+      <font>
+         <Font name="System Bold Italic" size="18.0" />
+      </font>
+    </Label>
+
+    <ComboBox fx:id="comboBoxAI" prefWidth="150.0" style="-fx-background-color: lightgray; -fx-background-radius: 15;" />
+
+   <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="40.0" prefWidth="300.0" text="Seleziona la tipologia di confini" style="-fx-font-weight: bold italic;">
+    <font>
+        <Font size="18.0" />
+    </font>
+   </Label>
+
+    <ComboBox fx:id="comboBoxConfini" prefWidth="150.0" style="-fx-background-color: lightgray; -fx-background-radius: 15;" />
+
+    <Button onAction="#onAvviaPartitaClick" prefHeight="40.0" prefWidth="150.0" style="-fx-background-color: goldenrod; -fx-background-radius: 20;" text="Avvia partita" textFill="BLACK">
+      <font>
+         <Font name="System Bold" size="16.0" />
+      </font></Button>
+</VBox>

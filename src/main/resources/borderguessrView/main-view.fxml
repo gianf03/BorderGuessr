@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox alignment="CENTER" prefHeight="650.0" prefWidth="650.0" spacing="20.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.borderguessrguiprova.GUI.HomeController">
+
+    <padding>
+        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+    </padding>
+
+   <ImageView fx:id="imgLogo" fitHeight="230" fitWidth="230" preserveRatio="true">
+   </ImageView>
+
+    <Button fx:id="nuovaPartitaButton" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="40.0" prefWidth="150.0" style="-fx-background-color: goldenrod; -fx-background-radius: 20;" text="Nuova partita" onAction="#onNuovaPartitaClick">
+      <font><Font name="System Bold" size="16.0" /></font>
+    </Button>
+
+    <Button maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="40.0" prefWidth="150.0" style="-fx-background-color: goldenrod; -fx-background-radius: 20;" text="About" onAction="#onAboutClick">
+      <font><Font name="System Bold" size="16.0" /></font>
+    </Button>
+</VBox>

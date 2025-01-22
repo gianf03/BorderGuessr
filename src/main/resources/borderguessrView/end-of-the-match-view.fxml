@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox alignment="CENTER" prefHeight="650.0" prefWidth="650.0" spacing="20.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.borderguessrguiprova.GUI.EndOfTheMatchController">
+   <Label text="Riepilogo della partita:" textAlignment="CENTER">
+      <font>
+         <Font name="System Bold Italic" size="16.0" />
+      </font>
+   </Label>
+
+   <ScrollPane fx:id="scrollPane" fitToHeight="true" fitToWidth="true" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="150.0" prefWidth="650.0" style="-fx-background-color: transparent;" vbarPolicy="NEVER">
+
+   </ScrollPane>
+
+   <Label fx:id="vincitore" alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="120.0" prefWidth="500.0">
+      <font>
+         <Font size="36.0" />
+      </font>
+   </Label>
+
+   <ImageView fx:id="imgUser" fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true" />
+
+   <Button onAction="#onGiocaDiNuovoClick" prefHeight="40.0" prefWidth="150.0" style="-fx-background-color: goldenrod; -fx-background-radius: 20;" text="Gioca di nuovo" textFill="BLACK">
+      <font>
+         <Font name="System Bold" size="16.0" />
+      </font></Button>
+   <Button onAction="#onChiudiClick" prefHeight="40.0" prefWidth="150.0" style="-fx-background-color: goldenrod; -fx-background-radius: 20;" text="Chiudi" textFill="BLACK">
+      <font>
+         <Font name="System Bold" size="16.0" />
+      </font></Button>
+
+</VBox>

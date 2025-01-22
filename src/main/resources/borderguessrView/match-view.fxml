@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox alignment="CENTER" prefHeight="650.0" prefWidth="650.0" spacing="20.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.borderguessrguiprova.GUI.MatchController">
+
+    <ScrollPane fx:id="scrollPane" fitToHeight="true" fitToWidth="true" hbarPolicy="NEVER" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="150.0" prefWidth="650.0" style="-fx-background-color: transparent;" vbarPolicy="NEVER">
+        <content>
+            <HBox fx:id="saidCountries" alignment="CENTER" spacing="10">
+
+            </HBox>
+        </content>
+    </ScrollPane>
+
+    <Label fx:id="nazioneCorrente" alignment="CENTER" prefHeight="40.0" prefWidth="250.0">
+      <font>
+         <Font size="18.0" />
+      </font>
+    </Label>
+
+   <ImageView fx:id="imgFlag" fitHeight="130.0" fitWidth="130.0" pickOnBounds="true" preserveRatio="true" />
+
+   <Label text="La tua prossima mossa">
+      <font>
+         <Font name="System Bold Italic" size="18.0" />
+      </font>
+   </Label>
+
+   <TextField fx:id="sceltaUtente" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="40.0" prefWidth="250.0" />
+
+    <Button fx:id="confermaButton" onAction="#onConfermaClick" prefHeight="40.0" prefWidth="150.0" style="-fx-background-color: goldenrod; -fx-background-radius: 20;" text="Conferma" textFill="BLACK">
+      <font>
+         <Font name="System Bold" size="16.0" />
+      </font></Button>
+</VBox>

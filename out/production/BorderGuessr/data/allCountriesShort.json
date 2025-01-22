@@ -1,0 +1,100 @@
+{
+  "allCountries": [
+    {
+      "name": "Austria",
+      "neighbors": ["Italia", "Slovenia", "Ungheria", "Slovacchia", "Cechia", "Germania"]
+    },
+    {
+      "name": "Belgio",
+      "neighbors": ["Paesi Bassi", "Germania", "Lussemburgo", "Francia"]
+    },
+    {
+      "name": "Bulgaria",
+      "neighbors": ["Grecia", "Romania"]
+    },
+    {
+      "name": "Croazia",
+      "neighbors": ["Slovenia", "Ungheria"]
+    },
+    {
+      "name": "Danimarca",
+      "neighbors": ["Germania"]
+    },
+    {
+      "name": "Estonia",
+      "neighbors": ["Lettonia"]
+    },
+    {
+      "name": "Finlandia",
+      "neighbors": ["Svezia"]
+    },
+    {
+      "name": "Francia",
+      "neighbors": ["Spagna", "Germania", "Italia", "Lussemburgo", "Belgio"]
+    },
+    {
+      "name": "Germania",
+      "neighbors": ["Francia", "Paesi Bassi", "Lussemburgo", "Belgio","Austria", "Cechia", "Danimarca","Polonia"]
+    },
+    {
+      "name": "Grecia",
+      "neighbors": ["Bulgaria"]
+    },
+    {
+      "name": "Italia",
+      "neighbors": ["Francia", "Austria", "Slovenia"]
+    },
+    {
+      "name": "Lettonia",
+      "neighbors": ["Lituania", "Estonia"]
+    },
+    {
+      "name": "Lituania",
+      "neighbors": ["Lettonia", "Polonia"]
+    },
+    {
+      "name": "Lussemburgo",
+      "neighbors": ["Francia", "Germania", "Belgio"]
+    },
+    {
+      "name": "Paesi Bassi",
+      "neighbors": ["Belgio", "Germania"]
+    },
+    {
+      "name": "Polonia",
+      "neighbors": ["Germania", "Cechia", "Slovacchia", "Lituania"]
+    },
+    {
+      "name": "Portogallo",
+      "neighbors": ["Spagna"]
+    },
+    {
+      "name": "Cechia",
+      "neighbors": ["Germania", "Austria", "Polonia", "Slovacchia"]
+    },
+    {
+      "name": "Romania",
+      "neighbors": ["Ungheria", "Bulgaria"]
+    },
+    {
+      "name": "Slovacchia",
+      "neighbors": ["Austria", "Cechia", "Polonia", "Ungheria"]
+    },
+    {
+      "name": "Slovenia",
+      "neighbors": ["Italia", "Croazia", "Ungheria", "Austria"]
+    },
+    {
+      "name": "Spagna",
+      "neighbors": ["Portogallo", "Francia"]
+    },
+    {
+      "name": "Svezia",
+      "neighbors": ["Finlandia"]
+    },
+    {
+      "name": "Ungheria",
+      "neighbors": ["Slovacchia", "Romania", "Croazia", "Austria", "Slovenia"]
+    }
+  ]
+}

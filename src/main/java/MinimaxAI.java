@@ -2,8 +2,6 @@ import interfaces.Algorithm;
 import interfaces.Board;
 import interfaces.Move;
 
-import java.util.List;
-
 public abstract class MinimaxAI implements Algorithm {
     public abstract Move findBestMove(Board currentBoard);
 

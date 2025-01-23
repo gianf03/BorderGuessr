@@ -1,0 +1,34 @@
+{
+  "allCountries": [
+    {
+      "name": "Italia",
+      "neighbors": ["Austria", "Francia", "Slovenia", "Svizzera"],
+      "image": "/img/italia.png"
+    },
+    {
+      "name": "Austria",
+      "neighbors": ["Germania", "Italia", "Slovenia", "Svizzera"],
+      "image": "/img/austria.png"
+    },
+    {
+      "name": "Svizzera",
+      "neighbors": ["Austria", "Francia", "Germania", "Italia"],
+      "image": "/img/svizzera.png"
+    },
+    {
+      "name": "Francia",
+      "neighbors": ["Germania", "Italia", "Svizzera"],
+      "image": "/img/francia.png"
+    },
+    {
+      "name": "Slovenia",
+      "neighbors": ["Austria", "Italia"],
+      "image": "/img/slovenia.png"
+    },
+    {
+      "name": "Germania",
+      "neighbors": ["Austria", "Francia", "Svizzera"],
+      "image": "/img/germania.png"
+    }
+  ]
+}

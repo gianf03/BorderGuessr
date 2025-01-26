@@ -93,7 +93,7 @@ public class BorderGuessrBoard implements Board {
         List<Move> nextMoves = new ArrayList<>();
         Country lastCountry = board.getLast();
 
-        System.out.print("Next moves from " + lastCountry.getName() + " : ");
+        //System.out.print("Next moves from " + lastCountry.getName() + " : ");
         for (String s : lastCountry.getNeighbors()) {
             Country c = new Country(s);
 
@@ -104,10 +104,10 @@ public class BorderGuessrBoard implements Board {
                     }
                 }
                 nextMoves.add(new BorderGuessrMove(this, c));
-                System.out.print(s + " ");
+                //System.out.print(s + " ");
             }
         }
-        System.out.print("\n");
+        //System.out.print("\n");
 
         return nextMoves;
     }

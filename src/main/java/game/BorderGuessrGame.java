@@ -29,7 +29,7 @@ public class BorderGuessrGame {
         Move aiMove = ai.findBestMove(board);
         aiMove.execute();
         BorderGuessrMove bMove = (BorderGuessrMove) aiMove;
-        System.out.println(bMove.getCurrentCountry().getName());
+        //System.out.println(bMove.getCurrentCountry().getName());
 
         return bMove.getCurrentCountry().getName();
     }
@@ -42,19 +42,17 @@ public class BorderGuessrGame {
         }
 
         if (board.isGameFinished()){
-            System.out.println(board.getWinner() + " WON!");
-            //return board.getWinner();
+            //System.out.println(board.getWinner() + " WON!");
 
             throw new CountryException("A stalemate has occurred,\n" + board.getWinner() + " WON!");
         }
 
         board.setTurn("computer");
-        System.out.print("Computer's turn:");
+        //System.out.print("Computer's turn:");
         String aiChoice = handleAiMove();
 
         if (board.isGameFinished()){
-            System.out.println(board.getWinner() + " WON!");
-            //return board.getWinner();
+            //System.out.println(board.getWinner() + " WON!");
 
             throw new CountryException("A stalemate has occurred,\n" + board.getWinner() + " WON!", aiChoice);
         }

@@ -83,7 +83,7 @@ public class MatchController {
             //mostra il nome della nazione iniziale
             nazioneCorrente.setText(initialCountry.getName());
 
-            System.out.println(initialCountry.getName());
+            //System.out.println(initialCountry.getName());
 
             Image image = new Image(getClass().getResourceAsStream(initialCountry.getImage()));
             imgFlag.setImage(image);

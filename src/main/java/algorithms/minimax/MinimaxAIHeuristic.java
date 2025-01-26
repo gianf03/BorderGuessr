@@ -8,7 +8,7 @@ import interfaces.Move;
 import java.util.List;
 
 public class MinimaxAIHeuristic extends MinimaxAI {
-    private static final int MAXDEPTH = 12;
+    private static final int MAXDEPTH = 10;
     @Override
     public Move findBestMove(Board currentBoard) {
         return minimax(currentBoard, true, Integer.MIN_VALUE , Integer.MAX_VALUE, 0).getMove();
@@ -26,12 +26,12 @@ public class MinimaxAIHeuristic extends MinimaxAI {
         if (nextMoves.isEmpty()) {
             bestScore = currentBoard.utility();
             //codice in più
-            System.out.println("Utility associata a " + bBoard.getBoard().getLast().getName() + " e\' " + bestScore);
+            //System.out.println("Utility associata a " + bBoard.getBoard().getLast().getName() + " e\' " + bestScore);
         }
         // Caso base 2: Raggiunta la profondità di taglio
         else if (depth == MAXDEPTH) {
             bestScore = 0; // Valore euristico per i nodi intermedi alla profondità di taglio
-            System.out.println("Utility associata a " + bBoard.getBoard().getLast().getName() + " e\' " + bestScore);
+            //System.out.println("Utility associata a " + bBoard.getBoard().getLast().getName() + " e\' " + bestScore);
         }
         // Caso ricorsivo
         else {

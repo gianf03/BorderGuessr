@@ -97,13 +97,13 @@ public class DepthFirstSearch implements Algorithm {
                 if ((nodo.getCosto() + saidCountries.size()) % 2 == 1) {
                     n = nodo;
 
-                    System.out.println("game.Nodo papabile : " + n.getStato().getName());
-                    System.out.print("Percorso :");
+                    //System.out.println("game.Nodo papabile : " + n.getStato().getName());
+                    //System.out.print("Percorso :");
                     while (n.getPadre() != radice) {
                         n = n.getPadre();
-                        System.out.print(" " + n.getStato().getName());
+                        //System.out.print(" " + n.getStato().getName());
                     }
-                    System.out.println();
+                    //System.out.println();
 
                     return new BorderGuessrMove(borderGuessrBoard, n.getStato());
                 }

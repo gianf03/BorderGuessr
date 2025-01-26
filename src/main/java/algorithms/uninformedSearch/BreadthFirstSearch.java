@@ -62,12 +62,12 @@ public class BreadthFirstSearch implements Algorithm {
         Set<Nodo> esplorati = new HashSet<>();
 
         while (!frontiera.isEmpty()) {
-            System.out.println(frontiera.size());
+            //System.out.println(frontiera.size());
             Nodo nodo = frontiera.removeFirst();
             esplorati.add(nodo);
 
             List<String> nomiFigli = new ArrayList<>();
-            System.out.println("Sto per farlo su: " + nodo.getStato());
+            //System.out.println("Sto per farlo su: " + nodo.getStato());
             List<String> nomiStatiConfinantiNodoCorrente = nodo.getStato().getNeighbors();
             List<String> saidCountriesAndAncestors = new ArrayList<>();
             saidCountriesAndAncestors.addAll(saidCountries);
@@ -102,13 +102,13 @@ public class BreadthFirstSearch implements Algorithm {
                 if ((nodo.getCosto() + saidCountries.size()) % 2 == 1) {
                     n = nodo;
 
-                    System.out.println("game.Nodo papabile : " + n.getStato().getName());
-                    System.out.print("Percorso :");
+                    //System.out.println("game.Nodo papabile : " + n.getStato().getName());
+                    //System.out.print("Percorso :");
                     while (n.getPadre() != radice) {
                         n = n.getPadre();
-                        System.out.print(" " + n.getStato().getName());
+                        //System.out.print(" " + n.getStato().getName());
                     }
-                    System.out.println();
+                    //System.out.println();
 
                     return new BorderGuessrMove(borderGuessrBoard, n.getStato());
                 }
@@ -124,7 +124,7 @@ public class BreadthFirstSearch implements Algorithm {
                     }
 
                     Nodo figlio = new Nodo(nodo, nodo.getCosto() + 1, country);
-                    System.out.println("Sto aggiungendo : " + figlio.getStato());
+                    //System.out.println("Sto aggiungendo : " + figlio.getStato());
                     frontiera.add(figlio);
                 }
             }

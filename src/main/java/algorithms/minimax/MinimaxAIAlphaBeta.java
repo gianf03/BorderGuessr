@@ -25,7 +25,7 @@ public class MinimaxAIAlphaBeta extends MinimaxAI {
         if(nextMoves.isEmpty()){
             bestScore = currentBoard.utility();
             //codice in più
-            System.out.println("Utility associata a " + bBoard.getBoard().getLast().getName() + " e\' " + bestScore);
+            //System.out.println("Utility associata a " + bBoard.getBoard().getLast().getName() + " e\' " + bestScore);
         } else {
             for (Move move: nextMoves){
                 move.execute();

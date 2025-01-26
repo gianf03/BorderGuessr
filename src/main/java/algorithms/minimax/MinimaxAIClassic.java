@@ -24,7 +24,7 @@ public class MinimaxAIClassic extends MinimaxAI {
             bestScore = currentBoard.utility();
             //codice in più
             BorderGuessrBoard bBoard = (BorderGuessrBoard) currentBoard;
-            System.out.println("Utility associata a " + bBoard.getBoard().getLast().getName() + " e\' " + bestScore);
+            //System.out.println("Utility associata a " + bBoard.getBoard().getLast().getName() + " e\' " + bestScore);
         } else {
             for (Move move: nextMoves){
                 move.execute();
@@ -36,7 +36,7 @@ public class MinimaxAIClassic extends MinimaxAI {
 
                         //aggiunte personali
                         BorderGuessrMove bMove = (BorderGuessrMove) move;
-                        System.out.println("Best move : " + bMove.getCurrentCountry().getName() + " con valore " + bestScore);
+                        //System.out.println("Best move : " + bMove.getCurrentCountry().getName() + " con valore " + bestScore);
                     }
 
 

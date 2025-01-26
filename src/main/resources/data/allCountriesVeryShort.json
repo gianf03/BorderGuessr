@@ -2,22 +2,22 @@
   "allCountries": [
     {
       "name": "Italia",
-      "neighbors": ["Austria", "Francia", "Slovenia", "Svizzera"],
+      "neighbors": ["Austria", "Francia", "Slovenia", "Svizzera", "San Marino"],
       "image": "/img/italia.png"
     },
     {
       "name": "Austria",
-      "neighbors": ["Germania", "Italia", "Slovenia", "Svizzera"],
+      "neighbors": ["Italia", "Slovenia", "Svizzera", "Liechtenstein"],
       "image": "/img/austria.png"
     },
     {
       "name": "Svizzera",
-      "neighbors": ["Austria", "Francia", "Germania", "Italia"],
+      "neighbors": ["Austria", "Francia", "Italia", "Liechtenstein"],
       "image": "/img/svizzera.png"
     },
     {
       "name": "Francia",
-      "neighbors": ["Germania", "Italia", "Svizzera"],
+      "neighbors": ["Italia", "Svizzera"],
       "image": "/img/francia.png"
     },
     {
@@ -26,9 +26,15 @@
       "image": "/img/slovenia.png"
     },
     {
-      "name": "Germania",
-      "neighbors": ["Austria", "Francia", "Svizzera"],
-      "image": "/img/germania.png"
+      "name": "San Marino",
+      "neighbors": ["Italia"],
+      "image": "/img/sanMarino.png"
+    },
+    {
+      "name": "Liechtenstein",
+      "neighbors": ["Austria", "Svizzera"],
+      "image": "/img/liechtenstein.png"
     }
+
   ]
 }

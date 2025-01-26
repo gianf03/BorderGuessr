@@ -81,8 +81,8 @@ public class BorderGuessrBoard implements Board {
     public int utility(){
         //il computer deve massimizzare, quando sa che vincerà sceglie il percorso più breve, quando sa che perderà sceglie percorso più lungo
         if (board.size() % 2 == 0)
-            return -1 * (allCountries.size() - board.size());
-        return (allCountries.size() - board.size());
+            return (-1 * (allCountries.size() - board.size())) -2;
+        return (allCountries.size() - board.size()) +2;
     }
 
 

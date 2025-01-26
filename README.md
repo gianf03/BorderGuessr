@@ -8,13 +8,13 @@ L’obiettivo è semplice ma intrigante: dimostrare di essere più abili del com
 offrendo una sfida avvincente, sia per gli appassionati di geografia che per chi vuole semplicemente migliorare le proprie conoscenze sui confini mondiali.
 
 ## Autori
-### Il Lambda Team
+### Il BorderGuessr Team
 
 - Sebastiano Caliendo - [Sebastiano-Caliendo](https://github.com/Sebastiano-Caliendo)
 - Niccolò Pio Tancredi - [neacc](https://github.com/neacc)
 - Gianfranco Vitiello - [gianf03](https://github.com/gianf03)
 
-- ## Installazione
+## Installazione
 
 ### Prerequisiti
 

@@ -27,7 +27,7 @@ Per eseguire il progetto, assicurarsi di avere installato i seguenti strumenti:
    Scaricare il file `.zip` del progetto dalla repository GitHub e aprirlo tramite IntelliJ IDEA.
 
 2. **Avvio del progetto**:
-   Recarsi sul BorderGuessrApplication, situato nel package GUI, ed avviare il progetto.
+   Recarsi sul file BorderGuessrApplication, situato nel package GUI, ed avviare il progetto.
 
 **NOTA**:
 Nel package data sono presenti molteplici file JSON:

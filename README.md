@@ -29,6 +29,15 @@ Per eseguire il progetto, assicurarsi di avere installato i seguenti strumenti:
 2. **Avvio del progetto**:
    Recarsi sul BorderGuessrApplication, situato nel package GUI, ed avviare il progetto.
 
+**NOTA**:
+Nel package data sono presenti molteplici file JSON:
+- **allCountriesVeryShort.json**: contiene solo 6 paesi, utile per capire come funzionano i vari algoritmi senza perdere la testa dietro l'albero di gioco;
+- **allCountriesShort.json**: contiene i 26 membri UE, solo confini terrestri, usato durante lo sviluppo per fare debugging;
+- **allCountries43.json**: contiente 43 paesi dell'Europa continentale, solo confini terrestri. Utile per testare il funzionamento del Minimax se si vogliono risposte in un tempo accettabile;
+- **allCountries82.json**: contiene 82 paesi sparsi per il mondo, solo confini terrestri. Utile per testare il funzionamento della potatura alfabeta se si vogliono risposte in un tempo accettabile;
+- **allCountries.json**: contiene 157 paesi, ovvero tutti quelli che possiedono almeno un confine terrestre. Impensabile usare su di esso Minimax standard e potatura alfabeta;
+- **allCountriesFull.json**: contiene tutti i 199 paesi del mondo, sia confini terrestri che marittimi. Impensabile usare su di esso Minimax standard e potatura alfabeta.
+
 
 ## Built With
 

@@ -41,4 +41,4 @@ Nel package data sono presenti molteplici file JSON:
 
 ## Built With
 
-- **Java** - Linguaggio di programmazione per lo sviluppo back-end.
+- **Java** - Linguaggio di programmazione per lo sviluppo back-end. Si è fatto uso anche di JavaFX per le interfacce grafiche.

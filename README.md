@@ -11,7 +11,7 @@ offrendo una sfida avvincente, sia per gli appassionati di geografia che per chi
 ### Il BorderGuessr Team
 
 - Sebastiano Caliendo - [Sebastiano-Caliendo](https://github.com/Sebastiano-Caliendo)
-- Niccolò Pio Tancredi - [neacc](https://github.com/neacc)
+- Niccolò Pio Tancredi - [neacc](https://github.com/nicotanc)
 - Gianfranco Vitiello - [gianf03](https://github.com/gianf03)
 
 ## Installazione
